@@ -1,0 +1,14 @@
+D:\Projects\OOP\Lab_1\Problem_12\bin\Debug\netcoreapp3.1\Problem_12.exe
+D:\Projects\OOP\Lab_1\Problem_12\bin\Debug\netcoreapp3.1\Problem_12.deps.json
+D:\Projects\OOP\Lab_1\Problem_12\bin\Debug\netcoreapp3.1\Problem_12.runtimeconfig.json
+D:\Projects\OOP\Lab_1\Problem_12\bin\Debug\netcoreapp3.1\Problem_12.runtimeconfig.dev.json
+D:\Projects\OOP\Lab_1\Problem_12\bin\Debug\netcoreapp3.1\Problem_12.dll
+D:\Projects\OOP\Lab_1\Problem_12\bin\Debug\netcoreapp3.1\Problem_12.pdb
+D:\Projects\OOP\Lab_1\Problem_12\obj\Debug\netcoreapp3.1\Problem_12.csproj.AssemblyReference.cache
+D:\Projects\OOP\Lab_1\Problem_12\obj\Debug\netcoreapp3.1\Problem_12.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\OOP\Lab_1\Problem_12\obj\Debug\netcoreapp3.1\Problem_12.AssemblyInfoInputs.cache
+D:\Projects\OOP\Lab_1\Problem_12\obj\Debug\netcoreapp3.1\Problem_12.AssemblyInfo.cs
+D:\Projects\OOP\Lab_1\Problem_12\obj\Debug\netcoreapp3.1\Problem_12.csproj.CoreCompileInputs.cache
+D:\Projects\OOP\Lab_1\Problem_12\obj\Debug\netcoreapp3.1\Problem_12.dll
+D:\Projects\OOP\Lab_1\Problem_12\obj\Debug\netcoreapp3.1\Problem_12.pdb
+D:\Projects\OOP\Lab_1\Problem_12\obj\Debug\netcoreapp3.1\Problem_12.genruntimeconfig.cache
