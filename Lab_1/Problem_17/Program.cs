@@ -4,6 +4,8 @@ namespace Problem_17
 {
     internal class Program
     {
+      
+  
         static void Main(string[] args)
         {
             int n = Convert.ToInt32(Console.ReadLine()), factorial = 1;
@@ -15,5 +17,7 @@ namespace Problem_17
 
             Console.WriteLine(factorial);
         }
+        
+        
     }
 }
