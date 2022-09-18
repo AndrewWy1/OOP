@@ -6,18 +6,29 @@ namespace Problem_4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter the number: ");
-            int number = Convert.ToInt32(Console.ReadLine()), count = 0;
+            int n, count;
 
-            while(number <= 1)
+            Console.Write("Enter n: ");
+            n = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("\n Output:\n");
+
+            for (int i = 2; i < n; i++)
             {
-                Console.WriteLine("Enter the number: ");
-                number = Convert.ToInt32(Console.ReadLine());
+                count = 0;
+                for (int j = 2; j < i; j++)
+                {
+                    if (i % 2 == 0)
+                    {
+                        count++;
+                    }
+                }
+
+                if (count== 0 && i != 1)
+                {
+                    Console.WriteLine($"{i}");
+                }
             }
-
-            int[] array = new int[(int)Math.Sqrt(number)];
-
-            Console.WriteLine("Numbers: " + String.Join(", ", array));
         }
     }
 }
