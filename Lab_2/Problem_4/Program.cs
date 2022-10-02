@@ -18,7 +18,7 @@ namespace Problem_4
                 count = 0;
                 for (int j = 2; j < i; j++)
                 {
-                    if (i % 2 == 0)
+                    if (i % 2 == 0 || (i % 5 == 0 && i != 5))
                     {
                         count++;
                     }
