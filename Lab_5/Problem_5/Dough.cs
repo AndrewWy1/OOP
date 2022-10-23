@@ -36,7 +36,7 @@ namespace Problem_5
             set
             {
                 if (value == "" || value == " ")
-                    throw new ArgumentException("Invalid type of dough.");
+                    throw new Exception("Invalid type of dough.");
 
                 flourType = value;
             }
@@ -50,7 +50,7 @@ namespace Problem_5
             set
             {
                 if (value == "" || value == " ")
-                    throw new ArgumentException("Invalid type of dough.");
+                    throw new Exception("Invalid type of dough.");
 
                 bakingTechnique = value;
             }
@@ -61,7 +61,7 @@ namespace Problem_5
             set
             {
                 if (value < 0 || value > 200)
-                    throw new ArgumentException("Dough weight should be in the range [1..200].");
+                    throw new Exception("Dough weight should be in the range [1..200].");
 
                 mass = value;
             }
@@ -85,7 +85,7 @@ namespace Problem_5
                 }
                 
             }
-            throw new ArgumentException("Invalid type of dough.");
+            throw new Exception("Invalid type of dough.");
         }
         private double searchBakingType()
         {
@@ -97,7 +97,7 @@ namespace Problem_5
                 }
                 
             }
-            throw new ArgumentException("Invalid type of dough.");
+            throw new Exception("Invalid type of dough.");
         }
 
         public double getCaloriesOfDough()

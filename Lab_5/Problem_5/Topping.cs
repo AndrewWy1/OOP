@@ -24,7 +24,7 @@ namespace Problem_5
             set
             {
                 if (value == "" || value == " ")
-                    throw new ArgumentException($"Cannot place {toppingType} on top of your pizza.");
+                    throw new Exception($"Cannot place {toppingType} on top of your pizza.");
 
                 toppingType = value;
             }
@@ -35,7 +35,7 @@ namespace Problem_5
             set
             {
                 if (value < 1 || value > 50)
-                    throw new ArgumentException($"{toppingType} weight should be in the range [1..50].");
+                    throw new Exception($"{toppingType} weight should be in the range [1..50].");
 
                 mass = value;
             }
@@ -56,7 +56,7 @@ namespace Problem_5
                     return toppingName.Value;
                 }
             }
-            throw new ArgumentException($"Cannot place {toppingType} on top of your pizza.");
+            throw new Exception($"Cannot place {toppingType} on top of your pizza.");
         }
 
         public double getCaloriesTopping()

@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Fujitsu Owner\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Fujitsu Owner\\.nuget\\packages"
+    ]
+  }
+}

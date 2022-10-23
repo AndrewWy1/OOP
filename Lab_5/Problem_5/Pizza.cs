@@ -17,7 +17,7 @@ namespace Problem_5
             set
             {
                 if (value == "" || value == " " || value.Length > 15)
-                    throw new ArgumentException("Pizza name should be between 1 and 15 symbols.");
+                    throw new Exception("Pizza name should be between 1 and 15 symbols.");
                 name = value;
             }
         }
@@ -48,7 +48,7 @@ namespace Problem_5
         {
             Console.Write("Enter number of toppings: ");
             int num = Convert.ToInt32(Console.ReadLine());
-            if (num >= 10) throw new ArgumentException("Number of \r\ntoppings should be in range [0..10].");
+            if (num >= 10) throw new Exception("Number of \r\ntoppings should be in range [0..10].");
 
             string name;
             int mass;

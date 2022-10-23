@@ -18,7 +18,7 @@ namespace Problem_1
 
                 else
                 {
-                    throw new ArgumentException("Length cannot be zero or negative.");
+                    throw new Exception("Length cannot be zero or negative.");
                 }
             }
         }
@@ -36,7 +36,7 @@ namespace Problem_1
 
                 else
                 {
-                    throw new ArgumentException("Width cannot be zero or negative.");
+                    throw new Exception("Width cannot be zero or negative.");
                 }
             }
         }
@@ -54,7 +54,7 @@ namespace Problem_1
 
                 else
                 {
-                    throw new ArgumentException("Height cannot be zero or negative.");
+                    throw new Exception("Height cannot be zero or negative.");
                 }
             }
 
@@ -68,22 +68,29 @@ namespace Problem_1
             Height = height;
         }
 
-        public double SurfaceArea()
+        private double SurfaceArea()
         {
             return (2 * Length * Width) +
                 (2 * Length * Height) +
                 (2 * Width * Height);
         }
 
-        public double LateralSurfaceArea()
+        private double LateralSurfaceArea()
         {
             return (2 * Length * Height) +
                 (2 * Width * Height);
         }
 
-        public double Volume()
+        private double Volume()
         {
             return Length * Height * Width;
+        }
+
+        public void getResult()
+        {
+            Console.WriteLine($"Surface Area – {SurfaceArea()}");
+            Console.WriteLine($"Lateral Surface Area – {LateralSurfaceArea()}");
+            Console.WriteLine($"Volume –  {Volume()}");
         }
     }
 
@@ -98,10 +105,7 @@ namespace Problem_1
                 width = Convert.ToDouble(Console.ReadLine());
             
             Box box = new Box(length, heigth, width);
-
-            Console.WriteLine($"Surface Area – {box.SurfaceArea()}");
-            Console.WriteLine($"Lateral Surface Area – {box.LateralSurfaceArea()}");
-            Console.WriteLine($"Volume –  {box.Volume()}");
+            box.getResult();
         }
     }
 }

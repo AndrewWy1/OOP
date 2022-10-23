@@ -13,7 +13,7 @@ namespace Problem_3
             set 
             {
                 if (value == "" || value == " ")
-                    throw new ArgumentException("Name cannot be empty!");
+                    throw new Exception("Name cannot be empty!");
                 
                 name = value;
             }
@@ -25,7 +25,7 @@ namespace Problem_3
             set
             {
                 if (value < 0 || value > 15)
-                    throw new ArgumentException("Age should be between 0 and 15");
+                    throw new Exception("Age should be between 0 and 15");
                 
                 age = value;
                    
