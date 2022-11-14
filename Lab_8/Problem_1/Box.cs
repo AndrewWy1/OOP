@@ -6,10 +6,16 @@ namespace Problem_1_2
 {
     public class Box<T>
     {
-        public T value { get; }
+        public T value { get; set; }
         public Box(T value)
         {
             this.value = value;
+        }
+
+        public void InrOut(T elemnt)
+        {
+            this.value = elemnt;
+            this.ToString();
         }
 
         public override string ToString()

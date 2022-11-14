@@ -1,12 +1,12 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
-using System.Linq.Expressions;
 using System.Text;
-using System.Xml.Linq;
+
 
 namespace Problem_7_8
 {
-    internal class MyList <T> where T : IComparable<T>, IEquatable<T> 
+    internal class MyList <T> where T : IComparable<T>, IEquatable<T>
     {
         private T[] _list;
         private int _size;

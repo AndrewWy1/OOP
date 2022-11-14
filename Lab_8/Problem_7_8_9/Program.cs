@@ -23,26 +23,27 @@ namespace Problem_7_8
                 list.Add(inputStr);
             }
 
-            list = Sorter<string>.QuickSort(list, 0, list.Size);
-            list.Print();
-
-            //Console.WriteLine($"Max: {list.Max()}");
-            //Console.WriteLine($"Min: {list.Min()}");
-
-            //Console.Write("Enter element for Greater: ");
-            //inputStr= Console.ReadLine();
-            //Console.WriteLine($"Greater: {list.CountGreaterThan(inputStr)}");
-
-            //Console.WriteLine("Enter indexs swap: ");
-            //index1 = Convert.ToInt32(Console.ReadLine());
-            //index2 = Convert.ToInt32(Console.ReadLine());
-            //list.Swap(index1, index2);
-            //Console.WriteLine("List: ");
+            //list = Sorter<string>.QuickSort(list, 0, list.Size);
             //list.Print();
 
-            //Console.Write("Enter element for Contains: ");
-            //inputStr = Console.ReadLine();
-            //Console.WriteLine($"Contains: {list.Contains(inputStr)}");
+
+            Console.WriteLine($"Max: {list.Max()}");
+            Console.WriteLine($"Min: {list.Min()}");
+
+            Console.Write("Enter element for Greater: ");
+            inputStr = Console.ReadLine();
+            Console.WriteLine($"Greater: {list.CountGreaterThan(inputStr)}");
+
+            Console.WriteLine("Enter indexs swap: ");
+            index1 = Convert.ToInt32(Console.ReadLine());
+            index2 = Convert.ToInt32(Console.ReadLine());
+            list.Swap(index1, index2);
+            Console.WriteLine("List: ");
+            list.Print();
+
+            Console.Write("Enter element for Contains: ");
+            inputStr = Console.ReadLine();
+            Console.WriteLine($"Contains: {list.Contains(inputStr)}");
         }
     }
 }

@@ -8,45 +8,46 @@ namespace Problem_1_2
         static void Main(string[] args)
         {
             int n;
-            Box<string> strBox = new Box<string>("str");
-            Console.WriteLine(strBox.ToString());
+            Box<string> strBox = new Box<string>("");
+            strBox.InrOut("lox");
+            //Console.WriteLine(strBox.ToString());
 
-            Box<double> doubleBox = new Box<double>(12.4);
-            Console.WriteLine(doubleBox.ToString());
+            //Box<double> doubleBox = new Box<double>(12.4);
+            //Console.WriteLine(doubleBox.ToString());
 
-            //----------------------------------------------------------------------------------------
+            ////----------------------------------------------------------------------------------------
 
-            Console.WriteLine("\n\nProblem 1");
-            Console.Write("Enter n: ");
-            n = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("\n\nProblem 1");
+            //Console.Write("Enter n: ");
+            //n = Convert.ToInt32(Console.ReadLine());
 
-            Box<string>[] boxesStr = new Box<string>[n]; 
+            //Box<string>[] boxesStr = new Box<string>[n]; 
 
-            for(int i = 0; i < n; i++)
-            {
-                Console.Write("Enter value: ");
-                boxesStr[i] = new Box<string>(Console.ReadLine());
-            }
+            //for(int i = 0; i < n; i++)
+            //{
+            //    Console.Write("Enter value: ");
+            //    boxesStr[i] = new Box<string>(Console.ReadLine());
+            //}
 
-            foreach (Box<string> box in boxesStr)
-                Console.WriteLine(box.ToString());
+            //foreach (Box<string> box in boxesStr)
+            //    Console.WriteLine(box.ToString());
 
-            //----------------------------------------------------------------------------------------
+            ////----------------------------------------------------------------------------------------
 
-            Console.WriteLine("\n\nProblem 2");
-            Console.Write("Enter n: ");
-            n = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("\n\nProblem 2");
+            //Console.Write("Enter n: ");
+            //n = Convert.ToInt32(Console.ReadLine());
 
-            Box<int>[] boxesInt = new Box<int>[n];
+            //Box<int>[] boxesInt = new Box<int>[n];
 
-            for (int i = 0; i < n; i++)
-            {
-                Console.Write("Enter value: ");
-                boxesInt[i] = new Box<int>(Convert.ToInt32(Console.ReadLine()));
-            }
+            //for (int i = 0; i < n; i++)
+            //{
+            //    Console.Write("Enter value: ");
+            //    boxesInt[i] = new Box<int>(Convert.ToInt32(Console.ReadLine()));
+            //}
 
-            foreach (Box<int> box in boxesInt)
-                Console.WriteLine(box.ToString());
+            //foreach (Box<int> box in boxesInt)
+            //    Console.WriteLine(box.ToString());
 
         }
     }

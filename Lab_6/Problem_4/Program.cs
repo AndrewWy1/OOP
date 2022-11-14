@@ -13,7 +13,7 @@ namespace Problem_4
             Console.Write("Enter the number of songs: ");
             count = Convert.ToInt32(Console.ReadLine());
 
-            List<RadioDB> radioDBs = new List<RadioDB>();
+            List<RadioDB> radioDBs = new List<RadioDB>(count);
 
             for(int i = 0; i < count; i++)
             {
