@@ -55,13 +55,38 @@ namespace Problem_2
                 if (inputArray[0] == "Kill")
                 {
                     foreach (Footman footman in footmen)
+                    {
                         if (footman.Name == inputArray[1])
+                        {
+                            Console.WriteLine($"{footman.Name} attached");
+                            footman.Helthpoint -= 1;
+                        }
+                            
+
+                        if(footman.Helthpoint == 0)
+                        {
+                            Console.WriteLine($"{footman.Name} killed");
                             king.HelpKing -= footman.Panic;
+                        }
+                    }
+                        
 
 
                     foreach (RoyalGuard royalGuard in royalguards)
+                    {
                         if (royalGuard.Name == inputArray[1])
+                        {
+                            Console.WriteLine($"{royalGuard.Name} attached");
+                            royalGuard.Helthpoint--;
+                        }
+                            
+
+                        if (royalGuard.Helthpoint == 0)
+                        {
+                            Console.WriteLine($"{royalGuard.Name} killed");
                             king.HelpKing -= royalGuard.Defend;
+                        }
+                    }
 
                 }
             }

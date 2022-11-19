@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Problem_1_2
 {
-    internal class MyList<T> 
+    internal class MyList<T>  : IEnumerable<T>
     {
         private List<T> _list;
         private int position = 0;
@@ -29,7 +29,7 @@ namespace Problem_1_2
         public T ReturnValue()
         {
             if (_list.Count == 0)
-                throw new Exception("list is void");
+                throw new ArgumentOutOfRangeException("List is empty");
 
             return _list[position];
 
@@ -50,6 +50,11 @@ namespace Problem_1_2
             {
                 yield return _list[i];
             }
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return this.GetEnumerator();
         }
     }
 

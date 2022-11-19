@@ -9,7 +9,7 @@ namespace Problem_1_2
         {
             int n;
             Box<string> strBox = new Box<string>("");
-            strBox.InrOut("lox");
+            strBox.InrOut("SomeText");
             //Console.WriteLine(strBox.ToString());
 
             //Box<double> doubleBox = new Box<double>(12.4);

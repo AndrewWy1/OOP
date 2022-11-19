@@ -9,7 +9,7 @@ namespace Problem_3
     {
         private List<T> _items = new List<T>();
 
-       private int _lastIndex = -1;
+        private int _lastIndex = -1;
 
         public void Push(T item)
         {
@@ -20,7 +20,7 @@ namespace Problem_3
         public T Pop()
         {
             if (_lastIndex < 0)
-                throw new Exception("Stack is empty");
+                throw new ArgumentOutOfRangeException("Stack is empty");
 
             return _items[_lastIndex--];
         }
@@ -29,7 +29,6 @@ namespace Problem_3
         {
             for (int i = _lastIndex; i >= 0; i--)
                 yield return _items[i];
-
         }
 
         IEnumerator IEnumerable.GetEnumerator()
