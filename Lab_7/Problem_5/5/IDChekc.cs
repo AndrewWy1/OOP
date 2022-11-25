@@ -39,7 +39,7 @@ namespace Problem_5
             if (infoArray.Length == 4)
                 _persons.Add(new Citizen(infoArray[0], Convert.ToInt32(infoArray[1]), infoArray[2], new Date(infoArray[3])));
         }
-
+ 
         public void CheckPersons()
         {
             string tmpID;

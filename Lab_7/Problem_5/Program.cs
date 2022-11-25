@@ -29,24 +29,27 @@ namespace Problem_5
 
 
 
-            BirthdateCheck birthdateCheck = new BirthdateCheck();
-            string tmpInput;
+            //BirthdateCheck birthdateCheck = new BirthdateCheck();
+            //string tmpInput;
 
-            Console.Write("Enter info about person (Name, age(if human), id, birthdate): ");
-            tmpInput = Console.ReadLine();
+            //Console.Write("Enter info about person (Name, age(if human), id, birthdate): ");
+            //tmpInput = Console.ReadLine();
 
-            while (tmpInput != "END")
-            {
-                birthdateCheck.AddToList(tmpInput);
-                Console.Write("Enter info about person (Name, age(if human), idm birthdate): ");
-                tmpInput = Console.ReadLine();
-            }
+            //while (tmpInput != "END")
+            //{
+            //    birthdateCheck.AddToList(tmpInput);
+            //    Console.Write("Enter info about person (Name, age(if human), idm birthdate): ");
+            //    tmpInput = Console.ReadLine();
+            //}
 
-            Console.Write("Enter control birthdate: ");
-            birthdateCheck.ControlYear = Int32.Parse(Console.ReadLine());
+            //Console.Write("Enter control birthdate: ");
+            //birthdateCheck.ControlYear = Int32.Parse(Console.ReadLine());
 
-            Console.Write("\n\n");
-            birthdateCheck.CheckBirthdates();
+            //Console.Write("\n\n");
+            //birthdateCheck.CheckBirthdates();
+
+
+            Pet.
         }
     }
 }

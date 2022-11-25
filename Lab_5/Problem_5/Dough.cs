@@ -72,6 +72,12 @@ namespace Problem_5
             BakingTechnique = bakingTechnique;
             Mass = mass;
         }
+        public Dough(string flourType, string bakingTechnique)
+        {
+            FlourType = flourType;
+            BakingTechnique = bakingTechnique;
+            Mass = mass;
+        }
 
 
         //assing modifier

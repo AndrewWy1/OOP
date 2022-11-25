@@ -9,5 +9,10 @@ namespace Problem_5._6
         Date BornYear { get; set; }
 
         public string GetFullInfo();
+
+        public static void Method()
+        {
+            Console.WriteLine("Some Code");
+        }
     }
 }

@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\OOP\\Lab_11\\Problem_2\\Problem_2.csproj",
-      "projectName": "Problem_2",
-      "projectPath": "D:\\Projects\\OOP\\Lab_11\\Problem_2\\Problem_2.csproj",
+      "projectUniqueName": "D:\\Projects\\OOP\\Lab_11\\Problem_2\\Problem_2_5.csproj",
+      "projectName": "Problem_2_5",
+      "projectPath": "D:\\Projects\\OOP\\Lab_11\\Problem_2\\Problem_2_5.csproj",
       "packagesPath": "C:\\Users\\Fujitsu Owner\\.nuget\\packages\\",
       "outputPath": "D:\\Projects\\OOP\\Lab_11\\Problem_2\\obj\\",
       "projectStyle": "PackageReference",
