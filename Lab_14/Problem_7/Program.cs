@@ -16,6 +16,7 @@ namespace Problem_7
 
             Console.Write("Enter info about person: ");
             input = Console.ReadLine().Split(" ");
+
             Console.Write("Enter marks: ");
             marks = Console.ReadLine().Split(" ").Select(Int32.Parse).ToList();
 
@@ -39,13 +40,13 @@ namespace Problem_7
                 Console.WriteLine(s);
             }
 
-            //Console.WriteLine("\n\n\n");
+            Console.WriteLine("\n\n\n");
 
-            //var StudentsCountGrades = list.Where(s => s.Marks.Count(num => num == 3) >= 2);
-            //foreach (var s in StudentsCountGrades)
-            //{
-            //    Console.WriteLine(s);
-            //}
+            var StudentsCountGrades = list.Where(s => s.Marks.Count(num => num <= 3) >= 2);
+            foreach (var s in StudentsCountGrades)
+            {
+                Console.WriteLine(s);
+            }
 
         }
     }
