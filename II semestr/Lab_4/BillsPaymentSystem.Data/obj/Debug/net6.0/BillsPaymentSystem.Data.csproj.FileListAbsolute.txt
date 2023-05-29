@@ -1,0 +1,17 @@
+D:\Projects\OOP\II semestr\Lab_4\BillsPaymentSystem.Data\obj\Debug\net6.0\BillsPaymentSystem.Data.csproj.AssemblyReference.cache
+D:\Projects\OOP\II semestr\Lab_4\BillsPaymentSystem.Data\obj\Debug\net6.0\BillsPaymentSystem.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\OOP\II semestr\Lab_4\BillsPaymentSystem.Data\obj\Debug\net6.0\BillsPaymentSystem.Data.AssemblyInfoInputs.cache
+D:\Projects\OOP\II semestr\Lab_4\BillsPaymentSystem.Data\obj\Debug\net6.0\BillsPaymentSystem.Data.AssemblyInfo.cs
+D:\Projects\OOP\II semestr\Lab_4\BillsPaymentSystem.Data\obj\Debug\net6.0\BillsPaymentSystem.Data.csproj.CoreCompileInputs.cache
+D:\Projects\OOP\II semestr\Lab_4\BillsPaymentSystem.Data\bin\Debug\net6.0\BillsPaymentSystem.Data.deps.json
+D:\Projects\OOP\II semestr\Lab_4\BillsPaymentSystem.Data\bin\Debug\net6.0\BillsPaymentSystem.Data.runtimeconfig.json
+D:\Projects\OOP\II semestr\Lab_4\BillsPaymentSystem.Data\bin\Debug\net6.0\BillsPaymentSystem.Data.dll
+D:\Projects\OOP\II semestr\Lab_4\BillsPaymentSystem.Data\bin\Debug\net6.0\BillsPaymentSystem.Data.pdb
+D:\Projects\OOP\II semestr\Lab_4\BillsPaymentSystem.Data\bin\Debug\net6.0\BillsPaymentSystem.Data.Models.dll
+D:\Projects\OOP\II semestr\Lab_4\BillsPaymentSystem.Data\bin\Debug\net6.0\BillsPaymentSystem.Data.Models.pdb
+D:\Projects\OOP\II semestr\Lab_4\BillsPaymentSystem.Data\obj\Debug\net6.0\BillsPaymentSystem.Data.csproj.CopyComplete
+D:\Projects\OOP\II semestr\Lab_4\BillsPaymentSystem.Data\obj\Debug\net6.0\BillsPaymentSystem.Data.dll
+D:\Projects\OOP\II semestr\Lab_4\BillsPaymentSystem.Data\obj\Debug\net6.0\refint\BillsPaymentSystem.Data.dll
+D:\Projects\OOP\II semestr\Lab_4\BillsPaymentSystem.Data\obj\Debug\net6.0\BillsPaymentSystem.Data.pdb
+D:\Projects\OOP\II semestr\Lab_4\BillsPaymentSystem.Data\obj\Debug\net6.0\BillsPaymentSystem.Data.genruntimeconfig.cache
+D:\Projects\OOP\II semestr\Lab_4\BillsPaymentSystem.Data\obj\Debug\net6.0\ref\BillsPaymentSystem.Data.dll
