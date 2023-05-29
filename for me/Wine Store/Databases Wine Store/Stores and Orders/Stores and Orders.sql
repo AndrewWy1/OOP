@@ -1,1 +1,0 @@
-Create database [Stores_and_Orders]
