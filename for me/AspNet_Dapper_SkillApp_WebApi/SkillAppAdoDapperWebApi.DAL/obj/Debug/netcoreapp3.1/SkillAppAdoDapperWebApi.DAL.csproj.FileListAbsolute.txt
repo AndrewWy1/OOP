@@ -1,0 +1,48 @@
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi.DAL\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.deps.json
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi.DAL\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.dll
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi.DAL\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.csprojAssemblyReference.cache
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi.DAL\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.AssemblyInfoInputs.cache
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi.DAL\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.AssemblyInfo.cs
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi.DAL\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.csproj.CoreCompileInputs.cache
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi.DAL\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.dll
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi.DAL\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.pdb
+C:\Users\tomka\source\repos\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi.DAL\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.pdb
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi.DAL\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.deps.json
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi.DAL\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.dll
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi.DAL\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.pdb
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi.DAL\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.csprojAssemblyReference.cache
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi.DAL\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.AssemblyInfoInputs.cache
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi.DAL\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.AssemblyInfo.cs
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi.DAL\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.csproj.CoreCompileInputs.cache
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi.DAL\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.dll
+D:\Examples ASP.NET CORE\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi.DAL\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.pdb
+C:\LEARN\.NET Examples\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi.DAL\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.deps.json
+C:\LEARN\.NET Examples\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi.DAL\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.dll
+C:\LEARN\.NET Examples\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi.DAL\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.pdb
+C:\LEARN\.NET Examples\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi.DAL\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.csproj.AssemblyReference.cache
+C:\LEARN\.NET Examples\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi.DAL\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\LEARN\.NET Examples\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi.DAL\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.AssemblyInfoInputs.cache
+C:\LEARN\.NET Examples\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi.DAL\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.AssemblyInfo.cs
+C:\LEARN\.NET Examples\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi.DAL\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.csproj.CoreCompileInputs.cache
+C:\LEARN\.NET Examples\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi.DAL\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.dll
+C:\LEARN\.NET Examples\SkillAppAdoDapperWebApi\SkillAppAdoDapperWebApi.DAL\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.pdb
+C:\LEARN\AspNet_Dapper_SkillApp_WebApi\SkillAppAdoDapperWebApi.DAL\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.deps.json
+C:\LEARN\AspNet_Dapper_SkillApp_WebApi\SkillAppAdoDapperWebApi.DAL\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.dll
+C:\LEARN\AspNet_Dapper_SkillApp_WebApi\SkillAppAdoDapperWebApi.DAL\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.pdb
+C:\LEARN\AspNet_Dapper_SkillApp_WebApi\SkillAppAdoDapperWebApi.DAL\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.csproj.AssemblyReference.cache
+C:\LEARN\AspNet_Dapper_SkillApp_WebApi\SkillAppAdoDapperWebApi.DAL\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\LEARN\AspNet_Dapper_SkillApp_WebApi\SkillAppAdoDapperWebApi.DAL\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.AssemblyInfoInputs.cache
+C:\LEARN\AspNet_Dapper_SkillApp_WebApi\SkillAppAdoDapperWebApi.DAL\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.AssemblyInfo.cs
+C:\LEARN\AspNet_Dapper_SkillApp_WebApi\SkillAppAdoDapperWebApi.DAL\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.csproj.CoreCompileInputs.cache
+C:\LEARN\AspNet_Dapper_SkillApp_WebApi\SkillAppAdoDapperWebApi.DAL\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.dll
+C:\LEARN\AspNet_Dapper_SkillApp_WebApi\SkillAppAdoDapperWebApi.DAL\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.pdb
+D:\Projects\OOP\for me\AspNet_Dapper_SkillApp_WebApi\SkillAppAdoDapperWebApi.DAL\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.deps.json
+D:\Projects\OOP\for me\AspNet_Dapper_SkillApp_WebApi\SkillAppAdoDapperWebApi.DAL\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.dll
+D:\Projects\OOP\for me\AspNet_Dapper_SkillApp_WebApi\SkillAppAdoDapperWebApi.DAL\bin\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.pdb
+D:\Projects\OOP\for me\AspNet_Dapper_SkillApp_WebApi\SkillAppAdoDapperWebApi.DAL\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.csproj.AssemblyReference.cache
+D:\Projects\OOP\for me\AspNet_Dapper_SkillApp_WebApi\SkillAppAdoDapperWebApi.DAL\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\OOP\for me\AspNet_Dapper_SkillApp_WebApi\SkillAppAdoDapperWebApi.DAL\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.AssemblyInfoInputs.cache
+D:\Projects\OOP\for me\AspNet_Dapper_SkillApp_WebApi\SkillAppAdoDapperWebApi.DAL\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.AssemblyInfo.cs
+D:\Projects\OOP\for me\AspNet_Dapper_SkillApp_WebApi\SkillAppAdoDapperWebApi.DAL\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.csproj.CoreCompileInputs.cache
+D:\Projects\OOP\for me\AspNet_Dapper_SkillApp_WebApi\SkillAppAdoDapperWebApi.DAL\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.dll
+D:\Projects\OOP\for me\AspNet_Dapper_SkillApp_WebApi\SkillAppAdoDapperWebApi.DAL\obj\Debug\netcoreapp3.1\SkillAppAdoDapperWebApi.DAL.pdb

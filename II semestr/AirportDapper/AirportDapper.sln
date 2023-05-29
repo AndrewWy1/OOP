@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirportDapperAPI", "AirportDapperAPI\AirportDapperAPI.csproj", "{F56D21C9-10D4-44DC-B448-42BB193E6F46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirportDapperDAL", "AirportDapperDAL\AirportDapperDAL.csproj", "{36490D45-8F70-42ED-9FC2-2C0103FEECB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F56D21C9-10D4-44DC-B448-42BB193E6F46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F56D21C9-10D4-44DC-B448-42BB193E6F46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F56D21C9-10D4-44DC-B448-42BB193E6F46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F56D21C9-10D4-44DC-B448-42BB193E6F46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36490D45-8F70-42ED-9FC2-2C0103FEECB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36490D45-8F70-42ED-9FC2-2C0103FEECB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36490D45-8F70-42ED-9FC2-2C0103FEECB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36490D45-8F70-42ED-9FC2-2C0103FEECB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA6D9050-560E-4241-80E1-321E2B48CC7E}
+	EndGlobalSection
+EndGlobal

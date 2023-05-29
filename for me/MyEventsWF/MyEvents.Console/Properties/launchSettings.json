@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "Console (dev)": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "NETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Console (prod)": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "NETCORE_ENVIRONMENT": "Production"
+      }
+    }
+  }
+}

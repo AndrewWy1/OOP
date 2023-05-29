@@ -1,0 +1,12 @@
+D:\Projects\OOP\for me\DapperDemo\DapperDemoData\bin\Debug\net7.0\DapperDemoData.deps.json
+D:\Projects\OOP\for me\DapperDemo\DapperDemoData\bin\Debug\net7.0\DapperDemoData.dll
+D:\Projects\OOP\for me\DapperDemo\DapperDemoData\bin\Debug\net7.0\DapperDemoData.pdb
+D:\Projects\OOP\for me\DapperDemo\DapperDemoData\obj\Debug\net7.0\DapperDemoData.csproj.AssemblyReference.cache
+D:\Projects\OOP\for me\DapperDemo\DapperDemoData\obj\Debug\net7.0\DapperDemoData.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\OOP\for me\DapperDemo\DapperDemoData\obj\Debug\net7.0\DapperDemoData.AssemblyInfoInputs.cache
+D:\Projects\OOP\for me\DapperDemo\DapperDemoData\obj\Debug\net7.0\DapperDemoData.AssemblyInfo.cs
+D:\Projects\OOP\for me\DapperDemo\DapperDemoData\obj\Debug\net7.0\DapperDemoData.csproj.CoreCompileInputs.cache
+D:\Projects\OOP\for me\DapperDemo\DapperDemoData\obj\Debug\net7.0\DapperDemoData.dll
+D:\Projects\OOP\for me\DapperDemo\DapperDemoData\obj\Debug\net7.0\refint\DapperDemoData.dll
+D:\Projects\OOP\for me\DapperDemo\DapperDemoData\obj\Debug\net7.0\DapperDemoData.pdb
+D:\Projects\OOP\for me\DapperDemo\DapperDemoData\obj\Debug\net7.0\ref\DapperDemoData.dll

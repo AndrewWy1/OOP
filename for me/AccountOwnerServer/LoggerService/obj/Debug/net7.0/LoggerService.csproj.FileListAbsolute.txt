@@ -1,0 +1,15 @@
+D:\Projects\OOP\for me\AccountOwnerServer\LoggerService\obj\Debug\net7.0\LoggerService.csproj.AssemblyReference.cache
+D:\Projects\OOP\for me\AccountOwnerServer\LoggerService\obj\Debug\net7.0\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\OOP\for me\AccountOwnerServer\LoggerService\obj\Debug\net7.0\LoggerService.AssemblyInfoInputs.cache
+D:\Projects\OOP\for me\AccountOwnerServer\LoggerService\obj\Debug\net7.0\LoggerService.AssemblyInfo.cs
+D:\Projects\OOP\for me\AccountOwnerServer\LoggerService\obj\Debug\net7.0\LoggerService.csproj.CoreCompileInputs.cache
+D:\Projects\OOP\for me\AccountOwnerServer\LoggerService\bin\Debug\net7.0\LoggerService.deps.json
+D:\Projects\OOP\for me\AccountOwnerServer\LoggerService\bin\Debug\net7.0\LoggerService.dll
+D:\Projects\OOP\for me\AccountOwnerServer\LoggerService\bin\Debug\net7.0\LoggerService.pdb
+D:\Projects\OOP\for me\AccountOwnerServer\LoggerService\bin\Debug\net7.0\Contracts.dll
+D:\Projects\OOP\for me\AccountOwnerServer\LoggerService\bin\Debug\net7.0\Contracts.pdb
+D:\Projects\OOP\for me\AccountOwnerServer\LoggerService\obj\Debug\net7.0\LoggerService.csproj.CopyComplete
+D:\Projects\OOP\for me\AccountOwnerServer\LoggerService\obj\Debug\net7.0\LoggerService.dll
+D:\Projects\OOP\for me\AccountOwnerServer\LoggerService\obj\Debug\net7.0\refint\LoggerService.dll
+D:\Projects\OOP\for me\AccountOwnerServer\LoggerService\obj\Debug\net7.0\LoggerService.pdb
+D:\Projects\OOP\for me\AccountOwnerServer\LoggerService\obj\Debug\net7.0\ref\LoggerService.dll
