@@ -12,16 +12,38 @@ namespace BillsPaymentSystem.Data.Models
 		public double Limit { get; set; }
 
 		[Required]
-		public double ModeyOwed { get; set; }
+		public double MoneyOwed { get; private set; }
 
 		[Required]
-		public double LimitLeft { get => Limit - ModeyOwed; }
+		public double LimitLeft { get => Limit - MoneyOwed; }
 
 		[Required]
 		public DateTime ExparationDate { get; set; }
 
 
 		//connection
-		public PaymentMethod PaymentMethod { get; set; } = default!;
-	}
+		public PaymentMethod PaymentMethod { get; set; } = null!;
+
+
+        public bool Withdraw(double amount)
+        {
+            if (LimitLeft <= amount)
+            {
+                MoneyOwed += amount;
+                return true;
+            }
+            else
+                return false;
+        }
+        public bool Diposit(double amount)
+        {
+            if (LimitLeft < amount)
+                return false;
+            else
+            {
+                MoneyOwed -= amount;
+                return true;
+            }
+        }
+    }
 }

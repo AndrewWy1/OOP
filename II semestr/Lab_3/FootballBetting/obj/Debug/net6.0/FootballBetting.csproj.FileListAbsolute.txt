@@ -69,7 +69,6 @@ D:\Projects\OOP\II semestr\Lab_3\FootballBetting\obj\Debug\net6.0\FootballBettin
 D:\Projects\OOP\II semestr\Lab_3\FootballBetting\obj\Debug\net6.0\FootballBetting.AssemblyInfoInputs.cache
 D:\Projects\OOP\II semestr\Lab_3\FootballBetting\obj\Debug\net6.0\FootballBetting.AssemblyInfo.cs
 D:\Projects\OOP\II semestr\Lab_3\FootballBetting\obj\Debug\net6.0\FootballBetting.csproj.CoreCompileInputs.cache
-D:\Projects\OOP\II semestr\Lab_3\FootballBetting\obj\Debug\net6.0\FootballBetting.MvcApplicationPartsAssemblyInfo.cs
 D:\Projects\OOP\II semestr\Lab_3\FootballBetting\obj\Debug\net6.0\FootballBetting.MvcApplicationPartsAssemblyInfo.cache
 D:\Projects\OOP\II semestr\Lab_3\FootballBetting\obj\Debug\net6.0\staticwebassets\msbuild.FootballBetting.Microsoft.AspNetCore.StaticWebAssets.props
 D:\Projects\OOP\II semestr\Lab_3\FootballBetting\obj\Debug\net6.0\staticwebassets\msbuild.build.FootballBetting.props
@@ -85,3 +84,7 @@ D:\Projects\OOP\II semestr\Lab_3\FootballBetting\obj\Debug\net6.0\refint\Footbal
 D:\Projects\OOP\II semestr\Lab_3\FootballBetting\obj\Debug\net6.0\FootballBetting.pdb
 D:\Projects\OOP\II semestr\Lab_3\FootballBetting\obj\Debug\net6.0\FootballBetting.genruntimeconfig.cache
 D:\Projects\OOP\II semestr\Lab_3\FootballBetting\obj\Debug\net6.0\ref\FootballBetting.dll
+D:\Projects\OOP\II semestr\Lab_3\FootballBetting\bin\Debug\net6.0\FootballBetting.Data.dll
+D:\Projects\OOP\II semestr\Lab_3\FootballBetting\bin\Debug\net6.0\FootballBetting.Data.Models.dll
+D:\Projects\OOP\II semestr\Lab_3\FootballBetting\bin\Debug\net6.0\FootballBetting.Data.pdb
+D:\Projects\OOP\II semestr\Lab_3\FootballBetting\bin\Debug\net6.0\FootballBetting.Data.Models.pdb

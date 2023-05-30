@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/nqO1WDWaM4Cp6MMAoCGQUatuY3hxiPzMBn5Kz6DDWd2gjwGBuea25Lbb2k55k+V4zl2u61SsRPAeboXYOulNA==",
+  "dgSpecHash": "1ApYfuZH3zr3OZ2DBxuTCCTjl30k8NwhxkW5vxvDXSVsrGH3qHOT4HLEXmAcuohriv2BaoA499PfZjBUp8cvJQ==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\OOP\\for me\\Lab_2\\Sales\\Sales.csproj",
+  "projectFilePath": "D:\\Projects\\OOP\\II semestr\\Lab_2\\Sales\\Sales.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Fujitsu Owner\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Fujitsu Owner\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

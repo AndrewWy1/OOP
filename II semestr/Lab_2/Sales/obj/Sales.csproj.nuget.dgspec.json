@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\OOP\\for me\\Lab_2\\Sales\\Sales.csproj": {}
+    "D:\\Projects\\OOP\\II semestr\\Lab_2\\Sales\\Sales.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\OOP\\for me\\Lab_2\\Sales\\Sales.csproj": {
+    "D:\\Projects\\OOP\\II semestr\\Lab_2\\Sales\\Sales.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\OOP\\for me\\Lab_2\\Sales\\Sales.csproj",
+        "projectUniqueName": "D:\\Projects\\OOP\\II semestr\\Lab_2\\Sales\\Sales.csproj",
         "projectName": "Sales",
-        "projectPath": "D:\\Projects\\OOP\\for me\\Lab_2\\Sales\\Sales.csproj",
+        "projectPath": "D:\\Projects\\OOP\\II semestr\\Lab_2\\Sales\\Sales.csproj",
         "packagesPath": "C:\\Users\\Fujitsu Owner\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\OOP\\for me\\Lab_2\\Sales\\obj\\",
+        "outputPath": "D:\\Projects\\OOP\\II semestr\\Lab_2\\Sales\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

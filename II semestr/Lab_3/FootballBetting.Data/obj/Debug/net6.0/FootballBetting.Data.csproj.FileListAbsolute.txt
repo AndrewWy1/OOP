@@ -1,0 +1,17 @@
+D:\Projects\OOP\II semestr\Lab_3\FootballBetting.Data\obj\Debug\net6.0\FootballBetting.Data.csproj.AssemblyReference.cache
+D:\Projects\OOP\II semestr\Lab_3\FootballBetting.Data\obj\Debug\net6.0\FootballBetting.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\OOP\II semestr\Lab_3\FootballBetting.Data\obj\Debug\net6.0\FootballBetting.Data.AssemblyInfoInputs.cache
+D:\Projects\OOP\II semestr\Lab_3\FootballBetting.Data\obj\Debug\net6.0\FootballBetting.Data.AssemblyInfo.cs
+D:\Projects\OOP\II semestr\Lab_3\FootballBetting.Data\obj\Debug\net6.0\FootballBetting.Data.csproj.CoreCompileInputs.cache
+D:\Projects\OOP\II semestr\Lab_3\FootballBetting.Data\bin\Debug\net6.0\FootballBetting.Data.deps.json
+D:\Projects\OOP\II semestr\Lab_3\FootballBetting.Data\bin\Debug\net6.0\FootballBetting.Data.runtimeconfig.json
+D:\Projects\OOP\II semestr\Lab_3\FootballBetting.Data\bin\Debug\net6.0\FootballBetting.Data.dll
+D:\Projects\OOP\II semestr\Lab_3\FootballBetting.Data\bin\Debug\net6.0\FootballBetting.Data.pdb
+D:\Projects\OOP\II semestr\Lab_3\FootballBetting.Data\bin\Debug\net6.0\FootballBetting.Data.Models.dll
+D:\Projects\OOP\II semestr\Lab_3\FootballBetting.Data\bin\Debug\net6.0\FootballBetting.Data.Models.pdb
+D:\Projects\OOP\II semestr\Lab_3\FootballBetting.Data\obj\Debug\net6.0\FootballBetting.Data.csproj.CopyComplete
+D:\Projects\OOP\II semestr\Lab_3\FootballBetting.Data\obj\Debug\net6.0\FootballBetting.Data.dll
+D:\Projects\OOP\II semestr\Lab_3\FootballBetting.Data\obj\Debug\net6.0\refint\FootballBetting.Data.dll
+D:\Projects\OOP\II semestr\Lab_3\FootballBetting.Data\obj\Debug\net6.0\FootballBetting.Data.pdb
+D:\Projects\OOP\II semestr\Lab_3\FootballBetting.Data\obj\Debug\net6.0\FootballBetting.Data.genruntimeconfig.cache
+D:\Projects\OOP\II semestr\Lab_3\FootballBetting.Data\obj\Debug\net6.0\ref\FootballBetting.Data.dll

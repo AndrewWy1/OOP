@@ -9,7 +9,7 @@ namespace BillsPaymentSystem.Data.Models
 		public int BankAccountId { get; set; }
 
 		[Required]
-		public double Balance { get; set; }
+		public double Balance { get; private set; }
 
 		[Required]
 		public string BankName { get; set; } = null!;
@@ -19,6 +19,22 @@ namespace BillsPaymentSystem.Data.Models
 
 
 		//connection
-		public PaymentMethod PaymentMethod { get; set; } = default!;
-	}
+		public PaymentMethod PaymentMethod { get; set; } = null!;
+
+        public bool Withdraw(double amount)
+        {
+            if (Balance >= amount)
+            {
+                Balance -= amount;
+                return true;
+            }
+            else
+                return false;
+        }
+        public bool Diposit(double amount)
+        {
+            Balance += amount;
+            return true;
+        }
+    }
 }
