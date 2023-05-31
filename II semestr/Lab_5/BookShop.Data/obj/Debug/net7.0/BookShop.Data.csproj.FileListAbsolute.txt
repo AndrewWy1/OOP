@@ -1,0 +1,17 @@
+D:\Projects\OOP\II semestr\Lab_5\BookShop.Data\obj\Debug\net7.0\BookShop.Data.csproj.AssemblyReference.cache
+D:\Projects\OOP\II semestr\Lab_5\BookShop.Data\obj\Debug\net7.0\BookShop.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\OOP\II semestr\Lab_5\BookShop.Data\obj\Debug\net7.0\BookShop.Data.AssemblyInfoInputs.cache
+D:\Projects\OOP\II semestr\Lab_5\BookShop.Data\obj\Debug\net7.0\BookShop.Data.AssemblyInfo.cs
+D:\Projects\OOP\II semestr\Lab_5\BookShop.Data\obj\Debug\net7.0\BookShop.Data.csproj.CoreCompileInputs.cache
+D:\Projects\OOP\II semestr\Lab_5\BookShop.Data\bin\Debug\net7.0\BookShop.Data.deps.json
+D:\Projects\OOP\II semestr\Lab_5\BookShop.Data\bin\Debug\net7.0\BookShop.Data.runtimeconfig.json
+D:\Projects\OOP\II semestr\Lab_5\BookShop.Data\bin\Debug\net7.0\BookShop.Data.dll
+D:\Projects\OOP\II semestr\Lab_5\BookShop.Data\bin\Debug\net7.0\BookShop.Data.pdb
+D:\Projects\OOP\II semestr\Lab_5\BookShop.Data\bin\Debug\net7.0\BookShop.Data.Models.dll
+D:\Projects\OOP\II semestr\Lab_5\BookShop.Data\bin\Debug\net7.0\BookShop.Data.Models.pdb
+D:\Projects\OOP\II semestr\Lab_5\BookShop.Data\obj\Debug\net7.0\BookShop.Data.csproj.CopyComplete
+D:\Projects\OOP\II semestr\Lab_5\BookShop.Data\obj\Debug\net7.0\BookShop.Data.dll
+D:\Projects\OOP\II semestr\Lab_5\BookShop.Data\obj\Debug\net7.0\refint\BookShop.Data.dll
+D:\Projects\OOP\II semestr\Lab_5\BookShop.Data\obj\Debug\net7.0\BookShop.Data.pdb
+D:\Projects\OOP\II semestr\Lab_5\BookShop.Data\obj\Debug\net7.0\BookShop.Data.genruntimeconfig.cache
+D:\Projects\OOP\II semestr\Lab_5\BookShop.Data\obj\Debug\net7.0\ref\BookShop.Data.dll
