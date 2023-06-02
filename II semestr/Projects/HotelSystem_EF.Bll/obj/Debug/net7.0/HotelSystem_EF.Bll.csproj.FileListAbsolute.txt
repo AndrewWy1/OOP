@@ -1,0 +1,15 @@
+D:\Projects\OOP\II semestr\Projects\HotelSystem_EF.Bll\bin\Debug\net7.0\HotelSystem_EF.Bll.deps.json
+D:\Projects\OOP\II semestr\Projects\HotelSystem_EF.Bll\bin\Debug\net7.0\HotelSystem_EF.Bll.dll
+D:\Projects\OOP\II semestr\Projects\HotelSystem_EF.Bll\bin\Debug\net7.0\HotelSystem_EF.Bll.pdb
+D:\Projects\OOP\II semestr\Projects\HotelSystem_EF.Bll\bin\Debug\net7.0\HotelSystem_EF.Dal.dll
+D:\Projects\OOP\II semestr\Projects\HotelSystem_EF.Bll\bin\Debug\net7.0\HotelSystem_EF.Dal.pdb
+D:\Projects\OOP\II semestr\Projects\HotelSystem_EF.Bll\obj\Debug\net7.0\HotelSystem_EF.Bll.csproj.AssemblyReference.cache
+D:\Projects\OOP\II semestr\Projects\HotelSystem_EF.Bll\obj\Debug\net7.0\HotelSystem_EF.Bll.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\OOP\II semestr\Projects\HotelSystem_EF.Bll\obj\Debug\net7.0\HotelSystem_EF.Bll.AssemblyInfoInputs.cache
+D:\Projects\OOP\II semestr\Projects\HotelSystem_EF.Bll\obj\Debug\net7.0\HotelSystem_EF.Bll.AssemblyInfo.cs
+D:\Projects\OOP\II semestr\Projects\HotelSystem_EF.Bll\obj\Debug\net7.0\HotelSystem_EF.Bll.csproj.CoreCompileInputs.cache
+D:\Projects\OOP\II semestr\Projects\HotelSystem_EF.Bll\obj\Debug\net7.0\HotelSystem_EF.Bll.csproj.CopyComplete
+D:\Projects\OOP\II semestr\Projects\HotelSystem_EF.Bll\obj\Debug\net7.0\HotelSystem_EF.Bll.dll
+D:\Projects\OOP\II semestr\Projects\HotelSystem_EF.Bll\obj\Debug\net7.0\refint\HotelSystem_EF.Bll.dll
+D:\Projects\OOP\II semestr\Projects\HotelSystem_EF.Bll\obj\Debug\net7.0\HotelSystem_EF.Bll.pdb
+D:\Projects\OOP\II semestr\Projects\HotelSystem_EF.Bll\obj\Debug\net7.0\ref\HotelSystem_EF.Bll.dll

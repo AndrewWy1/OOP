@@ -26,12 +26,11 @@ namespace HotelSystem_EF.Dal.Models
 
         //connections
         public ICollection<Review> Reviews { get; set; } = new List<Review>();
-
-        public int BookingId { get; set; }
-        public Booking Booking { get; set; } = null!;
+        
+        public ICollection<Booking> Bookings { get; set; } = new List<Booking>();
 
         public int RoomId { get; set; }
-        public Room RoomRoom { get; set; } = null!;
+        public Room Room { get; set; } = null!;
 
     }
 }
