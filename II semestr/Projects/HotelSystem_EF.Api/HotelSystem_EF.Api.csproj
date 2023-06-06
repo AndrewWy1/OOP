@@ -17,10 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\HotelSystem_EF.Bll\HotelSystem_EF.Bll.csproj" />
   </ItemGroup>
 

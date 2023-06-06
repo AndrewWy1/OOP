@@ -8,7 +8,7 @@ namespace HotelSystem_EF.Dal.Data.Configurations
     {
         public void Configure(EntityTypeBuilder<Payment> builder)
         {
-            builder.HasKey(p => p.PaumentId);
+            builder.HasKey(p => p.PaymentId);
         }
     }
 

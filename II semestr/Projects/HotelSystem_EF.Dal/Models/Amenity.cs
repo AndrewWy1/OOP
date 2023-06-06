@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace HotelSystem_EF.Dal.Models
 {
@@ -15,6 +16,7 @@ namespace HotelSystem_EF.Dal.Models
 
 
         //connction
-        public ICollection<RoomAmenity> RoomAmenities { get; set; } = new List<RoomAmenity>();
+        [JsonIgnore]
+        public ICollection<RoomAmenity> RoomAmenities { get; set; } = null!;
     }
 }

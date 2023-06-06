@@ -101,11 +101,11 @@ namespace HotelSystem_EF.Api.Migrations
 
             modelBuilder.Entity("HotelSystem_EF.Dal.Models.Payment", b =>
                 {
-                    b.Property<int>("PaumentId")
+                    b.Property<int>("PaymentId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PaumentId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PaymentId"));
 
                     b.Property<double>("Amount")
                         .HasColumnType("float");
@@ -116,7 +116,7 @@ namespace HotelSystem_EF.Api.Migrations
                     b.Property<DateTime>("PaymentDate")
                         .HasColumnType("datetime2");
 
-                    b.HasKey("PaumentId");
+                    b.HasKey("PaymentId");
 
                     b.HasIndex("BookingId");
 

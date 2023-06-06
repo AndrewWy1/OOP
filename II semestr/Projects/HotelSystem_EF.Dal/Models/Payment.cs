@@ -6,7 +6,7 @@ namespace HotelSystem_EF.Dal.Models
     public class Payment
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int PaumentId { get; set; }
+        public int PaymentId { get; set; }
 
         [Required]
         public double Amount { get; set; }
