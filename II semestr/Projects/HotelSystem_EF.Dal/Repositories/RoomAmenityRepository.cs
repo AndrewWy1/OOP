@@ -9,12 +9,5 @@ namespace HotelSystem_EF.Dal.Repositories
         public RoomAmenityRepository(HotelSystemContext context) : base(context)
         { }
 
-        public override async Task<int> CreateAsync(RoomAmenity roomAmenity)
-        {
-            await _entity.AddAsync(roomAmenity);
-
-            return roomAmenity.AmenityId;
-        }
-
     }
 }

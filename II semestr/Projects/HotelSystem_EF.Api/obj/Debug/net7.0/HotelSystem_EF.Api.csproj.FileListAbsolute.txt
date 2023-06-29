@@ -57,7 +57,6 @@ D:\Projects\OOP\II semestr\Projects\HotelSystem_EF.Api\obj\Debug\net7.0\HotelSys
 D:\Projects\OOP\II semestr\Projects\HotelSystem_EF.Api\obj\Debug\net7.0\HotelSystem_EF.Api.AssemblyInfoInputs.cache
 D:\Projects\OOP\II semestr\Projects\HotelSystem_EF.Api\obj\Debug\net7.0\HotelSystem_EF.Api.AssemblyInfo.cs
 D:\Projects\OOP\II semestr\Projects\HotelSystem_EF.Api\obj\Debug\net7.0\HotelSystem_EF.Api.csproj.CoreCompileInputs.cache
-D:\Projects\OOP\II semestr\Projects\HotelSystem_EF.Api\obj\Debug\net7.0\HotelSystem_EF.Api.MvcApplicationPartsAssemblyInfo.cs
 D:\Projects\OOP\II semestr\Projects\HotelSystem_EF.Api\obj\Debug\net7.0\HotelSystem_EF.Api.MvcApplicationPartsAssemblyInfo.cache
 D:\Projects\OOP\II semestr\Projects\HotelSystem_EF.Api\obj\Debug\net7.0\staticwebassets\msbuild.HotelSystem_EF.Api.Microsoft.AspNetCore.StaticWebAssets.props
 D:\Projects\OOP\II semestr\Projects\HotelSystem_EF.Api\obj\Debug\net7.0\staticwebassets\msbuild.build.HotelSystem_EF.Api.props
@@ -78,3 +77,6 @@ D:\Projects\OOP\II semestr\Projects\HotelSystem_EF.Api\bin\Debug\net7.0\Microsof
 D:\Projects\OOP\II semestr\Projects\HotelSystem_EF.Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 D:\Projects\OOP\II semestr\Projects\HotelSystem_EF.Api\bin\Debug\net7.0\Mono.TextTemplating.dll
 D:\Projects\OOP\II semestr\Projects\HotelSystem_EF.Api\bin\Debug\net7.0\System.CodeDom.dll
+D:\Projects\OOP\II semestr\Projects\HotelSystem_EF.Api\bin\Debug\net7.0\AutoMapper.dll
+D:\Projects\OOP\II semestr\Projects\HotelSystem_EF.Api\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Projects\OOP\II semestr\Projects\HotelSystem_EF.Api\obj\Debug\net7.0\HotelSystem_EF.Api.MvcApplicationPartsAssemblyInfo.cs

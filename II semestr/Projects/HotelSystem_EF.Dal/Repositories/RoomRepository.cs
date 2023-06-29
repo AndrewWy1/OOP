@@ -8,12 +8,5 @@ namespace HotelSystem_EF.Dal.Repositories
     {
         public RoomRepository(HotelSystemContext context) : base(context)
         { }
-
-        public override async Task<int> CreateAsync(Room room)
-        {
-            await _entity.AddAsync(room);
-
-            return room.RoomId;
-        }
     }
 }

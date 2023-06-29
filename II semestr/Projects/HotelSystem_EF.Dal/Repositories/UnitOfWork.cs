@@ -5,45 +5,38 @@ namespace HotelSystem_EF.Dal.Repositories
 {
     public class UnitOfWork : IUnitOfWork
     {
-        public HotelSystemContext context { get; set; }
-        public IAmenityRepository Amenity { get; }
-        public IBookingRepository Booking { get; }
-        public IBookingServiceRepository BookingService { get; }
-        public IPaymentRepository Payment { get; }
-        public IReviewRepository Review { get; }
-        public IRoomRepository Room { get; }
-        public IRoomAmenityRepository RoomAmenity { get; }
-        public IServiceRepository Service { get; }
-        public IUserRepository User { get; }
+        private readonly HotelSystemContext _context;
 
+        public IAmenityRepository Amenity { get; private set; }
+        public IUserRepository User { get; private set; }
 
-        public UnitOfWork(
-            HotelSystemContext context,
-            IAmenityRepository amenity,
-            IBookingRepository booking,
-            IBookingServiceRepository bookingService,
-            IPaymentRepository payment,
-            IReviewRepository review,
-            IRoomRepository room,
-            IRoomAmenityRepository roomAmenity,
-            IServiceRepository service,
-            IUserRepository user)
+        public IBookingRepository Booking { get; private set; }
+
+        public IBookingServiceRepository BookingService { get; private set; }
+
+        public IPaymentRepository Payment { get; private set; }
+
+        public IReviewRepository Review { get; private set; }
+
+        public IRoomRepository Room { get; private set; }
+
+        public IRoomAmenityRepository RoomAmenity { get; private set; }
+
+        public IServiceRepository Service { get; private set; }
+
+        public UnitOfWork(HotelSystemContext context)
         {
-            this.context = context;
-            Amenity = amenity;
-            Booking = booking;
-            BookingService = bookingService;
-            Payment = payment;
-            Review = review;
-            Room = room;
-            RoomAmenity = roomAmenity;
-            Service = service;
-            User = user;
-        }
+            _context = context;
 
-        public async Task SaveChangesAsync()
-        {
-            await context.SaveChangesAsync();
+            Amenity = new AmenityRepository(_context);
+            User = new UserRepository(_context);
+            Booking = new BookingRepository(_context);
+            BookingService = new BookingServiceRepository(_context);
+            Payment = new PaymentRepository(_context);
+            Review = new ReviewRepository(_context);
+            Room = new RoomRepository(_context);
+            RoomAmenity = new RoomAmenityRepository(_context);
+            Service = new ServiceRepository(_context);
         }
     }
 }

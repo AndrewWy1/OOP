@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "qMdQ2h5Q4/cd9+CZOqXNChGCfS3lX0p09PtimQT7X4zN4qOdvKoNM5V1ovUKSptjGIPDkfan+OG1e3+AmhmOqg==",
+  "dgSpecHash": "g1pXkFT96b8iDEMHIItHWnYIuUq4ZEpHL8/RCz1yArxlsTu26dHODFZe8SjP+wh60bVhyVtcExGcmz1PEcvNaA==",
   "success": true,
   "projectFilePath": "D:\\Projects\\OOP\\II semestr\\Projects\\HotelSystem_EF.Bll\\HotelSystem_EF.Bll.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Fujitsu Owner\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Fujitsu Owner\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\Fujitsu Owner\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Fujitsu Owner\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
     "C:\\Users\\Fujitsu Owner\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.5\\microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",
     "C:\\Users\\Fujitsu Owner\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.5\\microsoft.entityframeworkcore.analyzers.7.0.5.nupkg.sha512",

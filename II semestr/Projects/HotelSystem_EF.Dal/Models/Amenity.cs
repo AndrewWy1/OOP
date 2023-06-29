@@ -4,19 +4,15 @@ using System.Text.Json.Serialization;
 
 namespace HotelSystem_EF.Dal.Models
 {
-    public class Amenity
+    public class Amenity : ModelBase
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int AmenityId { get; set; }
-
         [Required]
         public string Name { get; set; } = null!;
 
         public string? Description { get; set; }
 
 
-        //connction
-        [JsonIgnore]
+        //connctions
         public ICollection<RoomAmenity> RoomAmenities { get; set; } = null!;
     }
 }

@@ -24,11 +24,11 @@ namespace HotelSystem_EF.Api.Migrations
 
             modelBuilder.Entity("HotelSystem_EF.Dal.Models.Amenity", b =>
                 {
-                    b.Property<int>("AmenityId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AmenityId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Description")
                         .HasMaxLength(250)
@@ -39,18 +39,44 @@ namespace HotelSystem_EF.Api.Migrations
                         .HasMaxLength(75)
                         .HasColumnType("nvarchar(75)");
 
-                    b.HasKey("AmenityId");
+                    b.HasKey("Id");
 
                     b.ToTable("Amenities");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Description = "Description 1",
+                            Name = "Amenity 1"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Description = "Description 2",
+                            Name = "Amenity 2"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Description = "Description 3",
+                            Name = "Amenity 3"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Description = "Description 4",
+                            Name = "Amenity 4"
+                        });
                 });
 
             modelBuilder.Entity("HotelSystem_EF.Dal.Models.Booking", b =>
                 {
-                    b.Property<int>("BookingId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("BookingId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime>("CheckInDate")
                         .HasColumnType("datetime2");
@@ -64,48 +90,100 @@ namespace HotelSystem_EF.Api.Migrations
                     b.Property<int>("UserId")
                         .HasColumnType("int");
 
-                    b.HasKey("BookingId");
+                    b.HasKey("Id");
 
                     b.HasIndex("RoomId");
 
                     b.HasIndex("UserId");
 
                     b.ToTable("Bookings");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CheckInDate = new DateTime(2023, 5, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            CheckOutDate = new DateTime(2023, 5, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            RoomId = 1,
+                            UserId = 1
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CheckInDate = new DateTime(2023, 6, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            CheckOutDate = new DateTime(2023, 6, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            RoomId = 2,
+                            UserId = 2
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CheckInDate = new DateTime(2023, 7, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            CheckOutDate = new DateTime(2023, 7, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            RoomId = 3,
+                            UserId = 3
+                        },
+                        new
+                        {
+                            Id = 4,
+                            CheckInDate = new DateTime(2023, 8, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            CheckOutDate = new DateTime(2023, 8, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            RoomId = 4,
+                            UserId = 4
+                        });
                 });
 
             modelBuilder.Entity("HotelSystem_EF.Dal.Models.BookingService", b =>
                 {
-                    b.Property<int>("BookingServiceId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("BookingServiceId"));
-
                     b.Property<int>("BookingId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Quantity")
                         .HasColumnType("int");
 
                     b.Property<int>("ServiveId")
                         .HasColumnType("int");
 
-                    b.HasKey("BookingServiceId");
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
 
-                    b.HasIndex("BookingId");
+                    b.HasKey("BookingId", "ServiveId");
 
                     b.HasIndex("ServiveId");
 
                     b.ToTable("BookingServices");
+
+                    b.HasData(
+                        new
+                        {
+                            BookingId = 1,
+                            ServiveId = 1,
+                            Quantity = 2
+                        },
+                        new
+                        {
+                            BookingId = 2,
+                            ServiveId = 2,
+                            Quantity = 1
+                        },
+                        new
+                        {
+                            BookingId = 3,
+                            ServiveId = 3,
+                            Quantity = 3
+                        },
+                        new
+                        {
+                            BookingId = 4,
+                            ServiveId = 4,
+                            Quantity = 2
+                        });
                 });
 
             modelBuilder.Entity("HotelSystem_EF.Dal.Models.Payment", b =>
                 {
-                    b.Property<int>("PaymentId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PaymentId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<double>("Amount")
                         .HasColumnType("float");
@@ -116,20 +194,50 @@ namespace HotelSystem_EF.Api.Migrations
                     b.Property<DateTime>("PaymentDate")
                         .HasColumnType("datetime2");
 
-                    b.HasKey("PaymentId");
+                    b.HasKey("Id");
 
                     b.HasIndex("BookingId");
 
                     b.ToTable("Payments");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Amount = 100.0,
+                            BookingId = 1,
+                            PaymentDate = new DateTime(2023, 6, 20, 20, 50, 59, 667, DateTimeKind.Local).AddTicks(6943)
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Amount = 150.0,
+                            BookingId = 2,
+                            PaymentDate = new DateTime(2023, 6, 20, 20, 50, 59, 667, DateTimeKind.Local).AddTicks(6986)
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Amount = 200.0,
+                            BookingId = 3,
+                            PaymentDate = new DateTime(2023, 6, 20, 20, 50, 59, 667, DateTimeKind.Local).AddTicks(6989)
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Amount = 120.0,
+                            BookingId = 4,
+                            PaymentDate = new DateTime(2023, 6, 20, 20, 50, 59, 667, DateTimeKind.Local).AddTicks(6991)
+                        });
                 });
 
             modelBuilder.Entity("HotelSystem_EF.Dal.Models.Review", b =>
                 {
-                    b.Property<int>("ReviewId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ReviewId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Comment")
                         .HasMaxLength(250)
@@ -145,20 +253,54 @@ namespace HotelSystem_EF.Api.Migrations
                     b.Property<int>("UserId")
                         .HasColumnType("int");
 
-                    b.HasKey("ReviewId");
+                    b.HasKey("Id");
 
                     b.HasIndex("UserId");
 
                     b.ToTable("Reviews");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Comment = "Great experience!",
+                            Rating = 4.5,
+                            ReviewDate = new DateTime(2023, 6, 20, 20, 50, 59, 667, DateTimeKind.Local).AddTicks(7923),
+                            UserId = 1
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Comment = "Average service",
+                            Rating = 3.7999999999999998,
+                            ReviewDate = new DateTime(2023, 6, 20, 20, 50, 59, 667, DateTimeKind.Local).AddTicks(7939),
+                            UserId = 2
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Comment = "Highly recommended!",
+                            Rating = 5.0,
+                            ReviewDate = new DateTime(2023, 6, 20, 20, 50, 59, 667, DateTimeKind.Local).AddTicks(7941),
+                            UserId = 3
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Comment = "Disappointing stay",
+                            Rating = 2.5,
+                            ReviewDate = new DateTime(2023, 6, 20, 20, 50, 59, 667, DateTimeKind.Local).AddTicks(7944),
+                            UserId = 4
+                        });
                 });
 
             modelBuilder.Entity("HotelSystem_EF.Dal.Models.Room", b =>
                 {
-                    b.Property<int>("RoomId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RoomId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<double>("Price")
                         .HasColumnType("float");
@@ -174,36 +316,104 @@ namespace HotelSystem_EF.Api.Migrations
                     b.Property<int>("UserId")
                         .HasColumnType("int");
 
-                    b.HasKey("RoomId");
+                    b.HasKey("Id");
 
                     b.HasIndex("UserId")
                         .IsUnique();
 
                     b.ToTable("Rooms");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Price = 100.0,
+                            RoomNumber = 101,
+                            RoomType = "Standard",
+                            UserId = 1
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Price = 150.0,
+                            RoomNumber = 102,
+                            RoomType = "Deluxe",
+                            UserId = 2
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Price = 100.0,
+                            RoomNumber = 201,
+                            RoomType = "Standard",
+                            UserId = 3
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Price = 150.0,
+                            RoomNumber = 202,
+                            RoomType = "Deluxe",
+                            UserId = 4
+                        });
                 });
 
             modelBuilder.Entity("HotelSystem_EF.Dal.Models.RoomAmenity", b =>
                 {
-                    b.Property<int>("RoomId")
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("AmenityId")
                         .HasColumnType("int");
 
-                    b.HasKey("RoomId", "AmenityId");
+                    b.Property<int>("RoomId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
 
                     b.HasIndex("AmenityId");
 
+                    b.HasIndex("RoomId");
+
                     b.ToTable("RoomAmenities");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            AmenityId = 1,
+                            RoomId = 1
+                        },
+                        new
+                        {
+                            Id = 2,
+                            AmenityId = 2,
+                            RoomId = 2
+                        },
+                        new
+                        {
+                            Id = 3,
+                            AmenityId = 3,
+                            RoomId = 3
+                        },
+                        new
+                        {
+                            Id = 4,
+                            AmenityId = 4,
+                            RoomId = 4
+                        });
                 });
 
             modelBuilder.Entity("HotelSystem_EF.Dal.Models.Service", b =>
                 {
-                    b.Property<int>("ServiceId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ServiceId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Description")
                         .HasMaxLength(250)
@@ -217,18 +427,48 @@ namespace HotelSystem_EF.Api.Migrations
                         .HasMaxLength(75)
                         .HasColumnType("nvarchar(75)");
 
-                    b.HasKey("ServiceId");
+                    b.HasKey("Id");
 
                     b.ToTable("Services");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Description = "Description 1",
+                            Price = 10.99,
+                            ServiceName = "Service 1"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Description = "Description 2",
+                            Price = 15.99,
+                            ServiceName = "Service 2"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Description = "Description 3",
+                            Price = 20.989999999999998,
+                            ServiceName = "Service 3"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Description = "Description 4",
+                            Price = 25.989999999999998,
+                            ServiceName = "Service 4"
+                        });
                 });
 
             modelBuilder.Entity("HotelSystem_EF.Dal.Models.User", b =>
                 {
-                    b.Property<int>("UserId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -258,9 +498,51 @@ namespace HotelSystem_EF.Api.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
-                    b.HasKey("UserId");
+                    b.HasKey("Id");
 
                     b.ToTable("Users");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Email = "john.doe@example.com",
+                            FirstName = "John",
+                            LastName = "Doe",
+                            Password = "password1",
+                            RoomId = 1,
+                            Username = "johndoe"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Email = "jane.smith@example.com",
+                            FirstName = "Jane",
+                            LastName = "Smith",
+                            Password = "password2",
+                            RoomId = 2,
+                            Username = "janesmith"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Email = "mike.johnson@example.com",
+                            FirstName = "Mike",
+                            LastName = "Johnson",
+                            Password = "password3",
+                            RoomId = 3,
+                            Username = "mikejohnson"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Email = "sarah.williams@example.com",
+                            FirstName = "Sarah",
+                            LastName = "Williams",
+                            Password = "password4",
+                            RoomId = 4,
+                            Username = "sarahwilliams"
+                        });
                 });
 
             modelBuilder.Entity("HotelSystem_EF.Dal.Models.Booking", b =>

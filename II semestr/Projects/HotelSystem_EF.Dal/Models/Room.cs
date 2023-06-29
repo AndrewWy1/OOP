@@ -1,13 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace HotelSystem_EF.Dal.Models
 {
-    public class Room
+    public class Room : ModelBase
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int RoomId { get; set; }
-
         [Required]
         public int RoomNumber { get; set; }
 

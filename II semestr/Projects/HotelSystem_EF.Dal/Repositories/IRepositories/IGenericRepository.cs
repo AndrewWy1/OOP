@@ -1,15 +1,17 @@
-﻿using System.Linq.Expressions;
+﻿using HotelSystem_EF.Dal.Models;
 
 namespace HotelSystem_EF.Dal.Repositories.IRepositories
 {
-    public interface IGenericRepository<TEntity> where TEntity : class
+    public interface IGenericRepository<TEntity> where TEntity : ModelBase
     {
         Task<IEnumerable<TEntity>> GetAllAsync();
 
-        Task<TEntity?> GetByIdAsync(int id);
+        Task<TEntity> GetByIdAsync(int Id);
 
-        Task<int> CreateAsync(TEntity entity);
-        Task DeleteAsync(int id);
-        Task UpdateAsync(TEntity entity);
+        Task<TEntity> CreateAsync(TEntity entity);
+
+        Task<TEntity> UpdateAsync(TEntity entity);
+
+        Task<TEntity> DeleteAsync(int Id);
     }
 }

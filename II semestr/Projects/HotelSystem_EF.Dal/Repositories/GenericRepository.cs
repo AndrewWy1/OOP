@@ -1,14 +1,15 @@
 ﻿using HotelSystem_EF.Dal.Data;
+using HotelSystem_EF.Dal.Models;
 using HotelSystem_EF.Dal.Repositories.IRepositories;
 using Microsoft.EntityFrameworkCore;
-using System.Linq.Expressions;
+using System.Collections.Generic;
 
 namespace HotelSystem_EF.Dal.Repositories
 {
-    public abstract class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : class
+    public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : ModelBase
     {
-        private readonly HotelSystemContext _context;
-        protected readonly DbSet<TEntity> _entity;
+        protected readonly HotelSystemContext _context;
+        private readonly DbSet<TEntity> _entity;
 
         public GenericRepository(HotelSystemContext context)
         {
@@ -16,37 +17,57 @@ namespace HotelSystem_EF.Dal.Repositories
             _entity = context.Set<TEntity>();
         }
 
-        public virtual async Task<IEnumerable<TEntity>> GetAllAsync()
+
+        public async Task<IEnumerable<TEntity>> GetAllAsync()
         {
-            return await _entity.ToListAsync();
+            return await _entity.AsNoTracking().ToListAsync();
         }
 
-        public virtual async Task<TEntity?> GetByIdAsync(int id)
+        public async Task<TEntity> GetByIdAsync(int Id)
         {
-            var entity =  await _entity.FindAsync(id);
+            var entity = await _entity.AsNoTracking().FirstOrDefaultAsync(x => x.Id == Id);
 
             if (entity is null)
-                throw new Exception();
+                throw new Exception("Result is null");
 
             return entity;
         }
 
-        public abstract Task<int> CreateAsync(TEntity entity);
-
-        public virtual async Task DeleteAsync(int id)
+        public async Task<TEntity> CreateAsync(TEntity entity)
         {
-            var entity = await GetByIdAsync(id);
+            await _entity.AddAsync(entity);
+            await _context.SaveChangesAsync();
 
-            if(entity is null)
-                throw new Exception();
-
-            await Task.Run(() => _entity.Remove(entity));
+            return entity;
         }
 
-        public virtual async Task UpdateAsync(TEntity entity)
+        public async Task<TEntity> DeleteAsync(int Id)
         {
-            await Task.Run(() => _entity.Update(entity));
+            var entity = await _entity.AsNoTracking().FirstOrDefaultAsync(x => x.Id == Id);
+
+            if (entity is null)
+                throw new Exception("Result is null");
+
+            _entity.Remove(entity);
+
+            await _context.SaveChangesAsync();
+
+            return entity;
+
         }
-           
+
+        public async Task<TEntity> UpdateAsync(TEntity entity)
+        {
+            var oldEntity = await _entity.AsNoTracking().FirstOrDefaultAsync(x => x.Id == entity.Id);
+
+            if (oldEntity is null)
+                throw new Exception("Result not found");
+
+            _entity.Update(entity);
+
+            await _context.SaveChangesAsync();
+
+            return entity;
+        }
     }
 }

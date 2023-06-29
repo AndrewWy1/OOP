@@ -1,83 +1,89 @@
-﻿using HotelSystem_EF.Dal.Models;
+﻿using HotelSystem_EF.Bll.DTO.Amenity;
+using HotelSystem_EF.Bll.DTO.User;
+using HotelSystem_EF.Bll.Services.Interfaces;
+using HotelSystem_EF.Dal.Models;
 using HotelSystem_EF.Dal.Repositories.IRepositories;
+using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HotelSystem_EF.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UserController : ControllerBase
+    public class UserController : Controller
     {
-        public IUnitOfWork _uow {get; set;}
+        private readonly IUserService _userService;
 
-        public UserController(IUnitOfWork uow)
+        public UserController(IUserService amenityService)
         {
-            _uow = uow;
+            _userService = amenityService;
         }
 
-        // GET: api/<UserController>
         [HttpGet]
-        public async Task<ActionResult> GetAllAsync()
-        {
-            var ametity = await _uow.User.GetAllAsync();
-
-            return Ok(ametity);
-        }
-
-        // GET api/<UserController>/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult> GetbyIdAsync(int id)
+        public async Task<ActionResult<IEnumerable<UserDTO>>> GetAllInstrumentsAsync()
         {
             try
             {
-                return Ok(await _uow.User.GetByIdAsync(id));
+                var result = await _userService.GetAllAsync();
+                return Ok(result);
+            }
+            catch (Exception ex) { return StatusCode(500, ex.Message); }
+        }
+
+        [HttpGet("{Id}")]
+        public async Task<ActionResult<UserDTO>> GetByIdAsync(int Id)
+        {
+            try
+            {
+                var result = await _userService.GetByIdAsync(Id);
+                return Ok(result);
             }
             catch (Exception ex)
             {
-                return NotFound(ex.Message);
+                return StatusCode(500, ex.Message);
             }
         }
 
-        // POST api/<UserController>
         [HttpPost]
-        public async Task<ActionResult> PostAsync([FromBody] User user)
+        public async Task<ActionResult<UserDTO>> CreateAsync([FromBody] PostUserDTO user)
         {
             try
             {
-                await _uow.User.CreateAsync(user);
-                await _uow.SaveChangesAsync();
-                return Ok();
+                var result = await _userService.CreateAsync(user);
+                return Ok(result);
             }
             catch (Exception ex)
             {
-                return BadRequest(ex.Message);
+                return StatusCode(500, ex.Message);
             }
         }
 
-        // PUT api/<UserController>/5
         [HttpPut("{id}")]
-        public async Task<ActionResult> Put([FromBody] User newUser)
+        public async Task<ActionResult<UserDTO>> UpdateAsync([FromBody] UserDTO user)
         {
-            if(newUser.FirstName is null || newUser.LastName is null || newUser.Username is null || newUser.Email is null)
+            try
             {
-                return BadRequest();
+                var result = await _userService.UpdateAsync(user);
+                return Ok(result);
             }
-
-            var oldUser = await _uow.User.GetByIdAsync(newUser.UserId);
-
-            if(oldUser != null)
+            catch (Exception ex)
             {
-                return NotFound();
+                return StatusCode(500, ex.Message);
             }
-
-            await _uow.User.UpdateAsync(newUser);
-            return Ok();
         }
 
-        // DELETE api/<UserController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        [HttpDelete("{Id}")]
+        public async Task<ActionResult<UserDTO>> DeleteAsync(int Id)
         {
+            try
+            {
+                var result = await _userService.DeleteAsync(Id);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
         }
     }
 }

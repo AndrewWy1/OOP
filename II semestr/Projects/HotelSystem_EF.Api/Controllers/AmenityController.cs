@@ -1,71 +1,91 @@
-﻿using HotelSystem_EF.Dal.Models;
-using HotelSystem_EF.Dal.Repositories.IRepositories;
+﻿using AutoMapper;
+using HotelSystem_EF.Bll.DTO.Amenity;
+using HotelSystem_EF.Bll.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using System.Security.AccessControl;
+using System;
 
 namespace HotelSystem_EF.Api.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
-    public class AmenityController : ControllerBase 
+    [Route("api/[controller]")]
+    public class AmenityController : Controller
     {
-    
-        private IUnitOfWork _uof { get; set; }
+        private readonly IAmenityService _amenityService;
 
-        public AmenityController(IUnitOfWork uof)
+        public AmenityController(IAmenityService amenityService)
         {
-            _uof= uof;
+            _amenityService = amenityService;
         }
 
-        // GET: api/<AmenityController>
         [HttpGet]
-        public async Task<ActionResult> GetAllAsync()
-        {
-            var ametity = await _uof.Amenity.GetAllAsync();
-
-            return Ok(ametity);
-        }
-
-        // GET api/<AmenityController>/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult> GetbyIdAsync(int id)
+        public async Task<ActionResult<IEnumerable<AmenityDTO>>> GetAllInstrumentsAsync()
         {
             try
             {
-                return Ok(await _uof.Amenity.GetByIdAsync(id));
+                var result = await _amenityService.GetAllAsync();
+                return Ok(result);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
-                return NotFound(ex.Message);
+                return StatusCode(500, ex.Message);
             }
         }
 
-        // POST api/<AmenityController>
+        [HttpGet("{Id}")]
+        public async Task<ActionResult<AmenityDTO>> GetByIdAsync(int Id)
+        {
+            try
+            {
+                var result = await _amenityService.GetByIdAsync(Id);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                 return StatusCode(500, ex.Message);
+            }
+        }
+
         [HttpPost]
-        public async Task<ActionResult> PostAsync([FromBody] Amenity amenity)
+        public async Task<ActionResult<AmenityDTO>> CreateAsync([FromBody] PostAmenityDTO amenity)
         {
             try
             {
-                await _uof.Amenity.CreateAsync(amenity);
-                await _uof.SaveChangesAsync();
-                return Ok();
+                var result = await _amenityService.CreateAsync(amenity);
+                return Ok(result);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
-                return BadRequest(ex.Message);
+                return StatusCode(500, ex.Message);
             }
         }
 
-        // PUT api/<AmenityController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public async Task<ActionResult<AmenityDTO>> UpdateAsync([FromBody] AmenityDTO amenity)
         {
+            try
+            {
+                var result = await _amenityService.UpdateAsync(amenity);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+
+            }
         }
 
-        // DELETE api/<AmenityController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        [HttpDelete("{Id}")]
+        public async Task<ActionResult<AmenityDTO>> DeleteAsync(int Id)
         {
+            try
+            {
+                var result = await _amenityService.DeleteAsync(Id);
+                return Ok(result);
+            }
+            catch (Exception ex) 
+            {
+                return StatusCode(500, ex.Message);
+            }
         }
     }
 }

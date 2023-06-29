@@ -2,7 +2,7 @@
 
 namespace HotelSystem_EF.Dal.Repositories.IRepositories
 {
-    public interface IBookingServiceRepository : IGenericRepository<BookingService>
+    public interface IBookingServiceRepository : IGenericTransitiveReposetory<BookingService>
     {
     }
 }

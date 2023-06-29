@@ -51,7 +51,7 @@ namespace BookShop.Data
             var books = _context.Books
                 .Where(b => b.Price > 40)
                 .OrderByDescending(b => b.Price)
-                .Select(b => b.Title + " - $" + b.Price)
+                .Select(b => b.Title + " - " + b.Price)
                 .ToList();
 
             if (books.Count == 0)
@@ -78,7 +78,7 @@ namespace BookShop.Data
         {
 
             if (category is null)
-                return "Entery any category";
+                return "Category is null";
 
 
             var books = _context.Books.Join(
@@ -192,7 +192,7 @@ namespace BookShop.Data
                 .Select(o => o.Key + " - " + o.Sum(s => s.book.Copies))
                 .ToList();
 
-            return string.Join(Environment.NewLine, result);
+            return string.Join("\n", result);
         }
         public string GetTotalProfitByCategory()
         {
@@ -210,13 +210,13 @@ namespace BookShop.Data
                 .Select(o => o.Key + "   $" + o.Sum(s => s.TotalPrice))
                 .ToList();
 
-            return string.Join(Environment.NewLine, result);
+            return string.Join("\n", result);
         }
 
         public string GetMostRecentBooks()
         {
             var result =
-                _context.Books.AsEnumerable().Join(
+                _context.Books.Join(
                     _context.BookCategories.Join(
                         _context.Categories,
                         bc => bc.CategoryId,
@@ -252,7 +252,7 @@ namespace BookShop.Data
                             )}")
                     .ToList();
 
-            return string.Join(Environment.NewLine, result);
+            return string.Join("\n", result);
         }
 
         public string IncreasePrices()
@@ -270,7 +270,7 @@ namespace BookShop.Data
                 ?.ForEach(book => book.Price *= 5);
             _context.SaveChanges();
 
-            return string.Join(Environment.NewLine, books);
+            return string.Join("\n", books);
         }
 
         public  string RemoveBooks()

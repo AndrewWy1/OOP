@@ -3,11 +3,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace HotelSystem_EF.Dal.Models
 {
-    public class Payment
+    public class Payment : ModelBase
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int PaymentId { get; set; }
-
         [Required]
         public double Amount { get; set; }
 

@@ -3,11 +3,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace HotelSystem_EF.Dal.Models
 {
-    public class Review
+    public class Review : ModelBase
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int ReviewId { get; set; }
-
         [Required]
         public double Rating { get; set; }
 

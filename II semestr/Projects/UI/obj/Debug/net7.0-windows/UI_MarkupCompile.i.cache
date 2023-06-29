@@ -1,0 +1,20 @@
+﻿UI
+1.0.0.0
+
+winexe
+C#
+.cs
+D:\Projects\OOP\II semestr\Projects\UI\obj\Debug\net7.0-windows\
+UI
+none
+false
+TRACE;DEBUG;NET;NET7_0;NETCOREAPP
+D:\Projects\OOP\II semestr\Projects\UI\App.xaml
+6-1463484969
+21083885447
+19-2026978326
+248-1773050195
+Components\LeftMenuBar.xaml;Components\ShowTable.xaml;MainWindow.xaml;Views\AddUserView.xaml;Views\EditUserView.xaml;Views\ShowUserView.xaml;
+
+True
+

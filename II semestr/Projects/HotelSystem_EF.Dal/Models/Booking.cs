@@ -3,10 +3,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace HotelSystem_EF.Dal.Models
 {
-    public class Booking
+    public class Booking : ModelBase
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int BookingId { get; set; }
 
         [Required]
         [DataType(DataType.Date)]

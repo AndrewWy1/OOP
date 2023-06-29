@@ -3,11 +3,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace HotelSystem_EF.Dal.Models
 {
-    public class Service
+    public class Service : ModelBase
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int ServiceId { get; set; }
-
         [Required]
         public string ServiceName { get; set; } = null!;
 

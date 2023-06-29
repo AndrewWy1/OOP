@@ -1,45 +1,51 @@
-using HotelSystem_EF.Dal.Data;
-using HotelSystem_EF.Dal.Repositories.IRepositories;
-using HotelSystem_EF.Dal.Repositories;
-using Microsoft.EntityFrameworkCore;
+//using HotelSystem_EF.Dal.Data;
+//using HotelSystem_EF.Dal.Repositories.IRepositories;
+//using HotelSystem_EF.Dal.Repositories;
+//using Microsoft.EntityFrameworkCore;
+//using HotelSystem_EF.Bll.Services.Interfaces;
+//using HotelSystem_EF.Bll.Services;
+//using Microsoft.Data.SqlClient;
+//using Microsoft.Extensions.Options;
+//using System.Reflection;
 
-var builder = WebApplication.CreateBuilder(args);
+//var builder = WebApplication.CreateBuilder(args);
 
-
-builder.Services.AddDbContext<HotelSystemContext>(
-    options => options.UseSqlServer(builder.Configuration.GetConnectionString("sqlConnection"),
-    options => options.MigrationsAssembly("HotelSystem_EF.Api")));
-
-
-builder.Services.AddScoped<IAmenityRepository, AmenityRepository>();
-builder.Services.AddScoped<IBookingRepository, BookingRepository>();
-builder.Services.AddScoped<IBookingServiceRepository, BookingServiceRepository>();
-builder.Services.AddScoped<IPaymentRepository, PaymentRepository>();
-builder.Services.AddScoped<IReviewRepository, ReviewRepository>();
-builder.Services.AddScoped<IRoomAmenityRepository, RoomAmenityRepository>();
-builder.Services.AddScoped<IRoomRepository, RoomRepository>();
-builder.Services.AddScoped<IServiceRepository, ServiceRepository>();
-builder.Services.AddScoped<IUserRepository, UserRepository>();
-builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+//builder.Services.AddAutoMapper(typeof(Program).Assembly);
+//builder.Services.AddControllers();
+//builder.Services.AddEndpointsApiExplorer();
+//builder.Services.AddSwaggerGen();
 
 
-builder.Services.AddControllers();
+//builder.Services.AddDbContext<HotelSystemContext>(
+//    options => options.UseSqlServer(builder.Configuration.GetConnectionString("sqlConnection"),
+//    options => options.MigrationsAssembly("HotelSystem_EF.Api")));
 
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+//builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+//builder.Services.AddScoped(typeof(IGenericTransitiveReposetory<>), typeof(GenericTransitiveRepository<>));
+//builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+//builder.Services.AddScoped<IAmenityService, AmenityService>();
+//builder.Services.AddScoped<IBookingServices, BookingServices>();
+//builder.Services.AddScoped<IBookingServiceService, BookingServiceService>();
+//builder.Services.AddScoped<IPaymentService, PaymentService>();
+//builder.Services.AddScoped<IReviewService, ReviewService>();
+//builder.Services.AddScoped<IRoomService, RoomService>();
+//builder.Services.AddScoped<IRoomAmenityService, RoomAmenityService>();
+//builder.Services.AddScoped<IServiceService, ServiceService>();
+//builder.Services.AddScoped<IUserService, UserService>();
 
-var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+//var app = builder.Build();
 
-app.UseHttpsRedirection();
+//if (app.Environment.IsDevelopment())
+//{
+//    app.UseSwagger();
+//    app.UseSwaggerUI();
+//}
 
-app.UseAuthorization();
+//app.UseHttpsRedirection();
 
-app.MapControllers();
+//app.UseAuthorization();
 
-app.Run();
+//app.MapControllers();
+
+//app.Run();

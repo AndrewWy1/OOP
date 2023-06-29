@@ -63,7 +63,7 @@ BooksTasks booksTasks = new BooksTasks(optionsBuilder);
 //Console.WriteLine($"Books: {booksTasks.GetMostRecentBooks()}");
 
 //---------FourteenthTask---------
-Console.WriteLine($"Books: {booksTasks.IncreasePrices()}");
+//Console.WriteLine($"Books: {booksTasks.IncreasePrices()}");
 
 //---------FifteenthTask---------
 Console.WriteLine($"Books: {booksTasks.RemoveBooks()}");
