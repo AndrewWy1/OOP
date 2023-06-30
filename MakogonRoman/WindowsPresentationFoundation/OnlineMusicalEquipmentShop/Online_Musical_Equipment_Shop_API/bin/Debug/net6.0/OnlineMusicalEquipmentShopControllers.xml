@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OnlineMusicalEquipmentShopControllers</name>
+    </assembly>
+    <members>
+        <member name="M:Online_Musical_Equipment_Shop_API.Controllers.InstrumentsController.GetInstrumentsWithPaginationAsync(Online_Musical_Equipment_Shop_DAL.Entities.InstrumentParameters)">
+            <summary>
+            Return_all_Instruments_with_pagination from the database
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:Online_Musical_Equipment_Shop_API.Controllers.InstrumentsController.GetInstrumentsSortByDescroptionAsync">
+            <summary>
+            Return_all_Instruments_Sort_By_Name from the database
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:Online_Musical_Equipment_Shop_API.Controllers.InstrumentsController.GetAllInstrumentsAsync">
+            <summary>
+            Return_all_Instruments from the database
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:Online_Musical_Equipment_Shop_API.Controllers.InstrumentsController.GetInstrumentsByIdAsync(System.Guid)">
+            <summary>
+            Return_Instrument_by_Id from the database
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:Online_Musical_Equipment_Shop_API.Controllers.InstrumentsController.InsertInstrumentAsync(Online_Musical_Equipment_Shop_BLL.DTOs.RequestsDTOs.InsertInstrumentsDTO)">
+            <summary>
+            Insert_Instrument_to_Database
+            </summary>
+            <param name="insertInstrumentsDTO"></param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:Online_Musical_Equipment_Shop_API.Controllers.InstrumentsController.UpdateInstrumentAsync(Online_Musical_Equipment_Shop_BLL.DTOs.RequestsDTOs.UpdateInstrumentsDTO)">
+            <summary>
+            Update_Instrument_by_Id
+            </summary>
+            <param name="updateInstrumentsDTO"></param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:Online_Musical_Equipment_Shop_API.Controllers.InstrumentsController.DeleteInstrumentAsync(System.Guid)">
+            <summary>
+            Delete_Instrument
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="T:Online_Musical_Equipment_Shop_API.Migrations.InitialDatabase">
+            <inheritdoc />
+        </member>
+        <member name="M:Online_Musical_Equipment_Shop_API.Migrations.InitialDatabase.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Online_Musical_Equipment_Shop_API.Migrations.InitialDatabase.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Online_Musical_Equipment_Shop_API.Migrations.InitialDatabase.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Online_Musical_Equipment_Shop_API.Migrations.InitialAllDatabaseAndSeeding">
+            <inheritdoc />
+        </member>
+        <member name="M:Online_Musical_Equipment_Shop_API.Migrations.InitialAllDatabaseAndSeeding.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Online_Musical_Equipment_Shop_API.Migrations.InitialAllDatabaseAndSeeding.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Online_Musical_Equipment_Shop_API.Migrations.InitialAllDatabaseAndSeeding.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Online_Musical_Equipment_Shop_API.Migrations.SeedingDatabase">
+            <inheritdoc />
+        </member>
+        <member name="M:Online_Musical_Equipment_Shop_API.Migrations.SeedingDatabase.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Online_Musical_Equipment_Shop_API.Migrations.SeedingDatabase.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Online_Musical_Equipment_Shop_API.Migrations.SeedingDatabase.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Online_Musical_Equipment_Shop_API.Migrations.NewChanges">
+            <inheritdoc />
+        </member>
+        <member name="M:Online_Musical_Equipment_Shop_API.Migrations.NewChanges.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Online_Musical_Equipment_Shop_API.Migrations.NewChanges.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Online_Musical_Equipment_Shop_API.Migrations.NewChanges.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

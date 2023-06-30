@@ -1,0 +1,5 @@
+D:\Projects\OOP\for me\LINq\LINq\obj\Debug\net7.0\LINq.csproj.AssemblyReference.cache
+D:\Projects\OOP\for me\LINq\LINq\obj\Debug\net7.0\LINq.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\OOP\for me\LINq\LINq\obj\Debug\net7.0\LINq.AssemblyInfoInputs.cache
+D:\Projects\OOP\for me\LINq\LINq\obj\Debug\net7.0\LINq.AssemblyInfo.cs
+D:\Projects\OOP\for me\LINq\LINq\obj\Debug\net7.0\LINq.csproj.CoreCompileInputs.cache

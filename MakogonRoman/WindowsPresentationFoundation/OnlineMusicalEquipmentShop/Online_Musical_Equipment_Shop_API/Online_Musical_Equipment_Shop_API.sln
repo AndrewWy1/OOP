@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineMusicalEquipmentShopControllers", "OnlineMusicalEquipmentShopControllers.csproj", "{95868914-5817-4570-AD2C-21E5B064EFE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Online_Musical_Equipment_Shop_Management", "Online_Musical_Equipment_Shop_Management", "{DBA1BC75-DAA4-443C-96CF-CDFE71B0E767}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineMusicalEquipmentShopDomains", "..\Online_Musical_Equipment_Shop_DAL\OnlineMusicalEquipmentShopDomains.csproj", "{4FFEEE9F-B8E0-48CF-B6EF-EB20688F1D78}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineMusicalEquipmentShopServices", "..\Online_Musical_Equipment_Shop_BLL\OnlineMusicalEquipmentShopServices.csproj", "{9576218B-5135-4895-A4E7-8EE4904DEE3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Online_Musical_Equipment_Shop_WPF", "Online_Musical_Equipment_Shop_WPF", "{BB8FF6B4-A890-4DB1-AC29-FB67483DF808}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineMusicalEquipmentShopWebInterface", "..\Online_Musical_Equipment_Shop_WPF\OnlineMusicalEquipmentShopWebInterface.csproj", "{4384894D-78DF-4420-B7B3-5D5F128AC5AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95868914-5817-4570-AD2C-21E5B064EFE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95868914-5817-4570-AD2C-21E5B064EFE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95868914-5817-4570-AD2C-21E5B064EFE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95868914-5817-4570-AD2C-21E5B064EFE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FFEEE9F-B8E0-48CF-B6EF-EB20688F1D78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FFEEE9F-B8E0-48CF-B6EF-EB20688F1D78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FFEEE9F-B8E0-48CF-B6EF-EB20688F1D78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FFEEE9F-B8E0-48CF-B6EF-EB20688F1D78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9576218B-5135-4895-A4E7-8EE4904DEE3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9576218B-5135-4895-A4E7-8EE4904DEE3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9576218B-5135-4895-A4E7-8EE4904DEE3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9576218B-5135-4895-A4E7-8EE4904DEE3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4384894D-78DF-4420-B7B3-5D5F128AC5AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4384894D-78DF-4420-B7B3-5D5F128AC5AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4384894D-78DF-4420-B7B3-5D5F128AC5AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4384894D-78DF-4420-B7B3-5D5F128AC5AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{95868914-5817-4570-AD2C-21E5B064EFE7} = {DBA1BC75-DAA4-443C-96CF-CDFE71B0E767}
+		{4FFEEE9F-B8E0-48CF-B6EF-EB20688F1D78} = {DBA1BC75-DAA4-443C-96CF-CDFE71B0E767}
+		{9576218B-5135-4895-A4E7-8EE4904DEE3D} = {DBA1BC75-DAA4-443C-96CF-CDFE71B0E767}
+		{4384894D-78DF-4420-B7B3-5D5F128AC5AE} = {BB8FF6B4-A890-4DB1-AC29-FB67483DF808}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E843ECEC-1AF8-473F-8D0C-67713541DC13}
+	EndGlobalSection
+EndGlobal

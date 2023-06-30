@@ -1,0 +1,15 @@
+D:\Projects\OOP\for me\LINq\LinqStudy\bin\Debug\net7.0\LinqStudy.exe
+D:\Projects\OOP\for me\LINq\LinqStudy\bin\Debug\net7.0\LinqStudy.deps.json
+D:\Projects\OOP\for me\LINq\LinqStudy\bin\Debug\net7.0\LinqStudy.runtimeconfig.json
+D:\Projects\OOP\for me\LINq\LinqStudy\bin\Debug\net7.0\LinqStudy.dll
+D:\Projects\OOP\for me\LINq\LinqStudy\bin\Debug\net7.0\LinqStudy.pdb
+D:\Projects\OOP\for me\LINq\LinqStudy\obj\Debug\net7.0\LinqStudy.csproj.AssemblyReference.cache
+D:\Projects\OOP\for me\LINq\LinqStudy\obj\Debug\net7.0\LinqStudy.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\OOP\for me\LINq\LinqStudy\obj\Debug\net7.0\LinqStudy.AssemblyInfoInputs.cache
+D:\Projects\OOP\for me\LINq\LinqStudy\obj\Debug\net7.0\LinqStudy.AssemblyInfo.cs
+D:\Projects\OOP\for me\LINq\LinqStudy\obj\Debug\net7.0\LinqStudy.csproj.CoreCompileInputs.cache
+D:\Projects\OOP\for me\LINq\LinqStudy\obj\Debug\net7.0\LinqStudy.dll
+D:\Projects\OOP\for me\LINq\LinqStudy\obj\Debug\net7.0\refint\LinqStudy.dll
+D:\Projects\OOP\for me\LINq\LinqStudy\obj\Debug\net7.0\LinqStudy.pdb
+D:\Projects\OOP\for me\LINq\LinqStudy\obj\Debug\net7.0\LinqStudy.genruntimeconfig.cache
+D:\Projects\OOP\for me\LINq\LinqStudy\obj\Debug\net7.0\ref\LinqStudy.dll
