@@ -1,0 +1,15 @@
+D:\Projects\OOP\for me\Debagging\Debagging\bin\Debug\net7.0\Debagging.exe
+D:\Projects\OOP\for me\Debagging\Debagging\bin\Debug\net7.0\Debagging.deps.json
+D:\Projects\OOP\for me\Debagging\Debagging\bin\Debug\net7.0\Debagging.runtimeconfig.json
+D:\Projects\OOP\for me\Debagging\Debagging\bin\Debug\net7.0\Debagging.dll
+D:\Projects\OOP\for me\Debagging\Debagging\bin\Debug\net7.0\Debagging.pdb
+D:\Projects\OOP\for me\Debagging\Debagging\obj\Debug\net7.0\Debagging.csproj.AssemblyReference.cache
+D:\Projects\OOP\for me\Debagging\Debagging\obj\Debug\net7.0\Debagging.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\OOP\for me\Debagging\Debagging\obj\Debug\net7.0\Debagging.AssemblyInfoInputs.cache
+D:\Projects\OOP\for me\Debagging\Debagging\obj\Debug\net7.0\Debagging.AssemblyInfo.cs
+D:\Projects\OOP\for me\Debagging\Debagging\obj\Debug\net7.0\Debagging.csproj.CoreCompileInputs.cache
+D:\Projects\OOP\for me\Debagging\Debagging\obj\Debug\net7.0\Debagging.dll
+D:\Projects\OOP\for me\Debagging\Debagging\obj\Debug\net7.0\refint\Debagging.dll
+D:\Projects\OOP\for me\Debagging\Debagging\obj\Debug\net7.0\Debagging.pdb
+D:\Projects\OOP\for me\Debagging\Debagging\obj\Debug\net7.0\Debagging.genruntimeconfig.cache
+D:\Projects\OOP\for me\Debagging\Debagging\obj\Debug\net7.0\ref\Debagging.dll

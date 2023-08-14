@@ -20,12 +20,6 @@ namespace HotelSystem_EF.Dal.Data.Configurations
             builder.Property(u => u.Email)
                 .HasMaxLength(50);
 
-            builder.Property(u => u.Username)
-                .HasMaxLength(50);
-
-            builder.Property(u =>u.Password)
-                .HasMaxLength(32);
-
 
             //connections
             builder.HasMany(u => u.Reviews)
@@ -45,42 +39,42 @@ namespace HotelSystem_EF.Dal.Data.Configurations
             builder.HasData(
             new User
             {
-                Id = 1,
+                Id = "1",
                 FirstName = "John",
                 LastName = "Doe",
                 Email = "john.doe@example.com",
-                Username = "johndoe",
-                Password = "password1",
+                UserName = "User1",
+                PasswordHash = "1111",
                 RoomId = 1
             },
             new User
             {
-                Id = 2,
+                Id = "2",
                 FirstName = "Jane",
                 LastName = "Smith",
                 Email = "jane.smith@example.com",
-                Username = "janesmith",
-                Password = "password2",
+                UserName = "User2",
+                PasswordHash = "2222",
                 RoomId = 2
             },
             new User
             {
-                Id = 3,
+                Id = "3",
                 FirstName = "Mike",
                 LastName = "Johnson",
                 Email = "mike.johnson@example.com",
-                Username = "mikejohnson",
-                Password = "password3",
+                UserName = "User3",
+                PasswordHash = "3333",
                 RoomId = 3
             },
             new User
             {
-                Id = 4,
+                Id = "4",
                 FirstName = "Sarah",
                 LastName = "Williams",
                 Email = "sarah.williams@example.com",
-                Username = "sarahwilliams",
-                Password = "password4",
+                UserName = "User4",
+                PasswordHash = "4444",
                 RoomId = 4
             });
         }

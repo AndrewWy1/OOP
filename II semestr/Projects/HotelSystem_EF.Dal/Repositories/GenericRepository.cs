@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 namespace HotelSystem_EF.Dal.Repositories
 {
-    public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : ModelBase
+    public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : class
     {
         protected readonly HotelSystemContext _context;
         private readonly DbSet<TEntity> _entity;

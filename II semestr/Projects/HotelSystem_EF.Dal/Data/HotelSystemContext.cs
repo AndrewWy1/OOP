@@ -1,10 +1,12 @@
 ﻿using HotelSystem_EF.Dal.Data.Configurations;
 using HotelSystem_EF.Dal.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace HotelSystem_EF.Dal.Data
 {
-    public class HotelSystemContext : DbContext
+    public class HotelSystemContext : IdentityDbContext<User>
     {
         public HotelSystemContext(DbContextOptions<HotelSystemContext> options)
             : base(options)
@@ -19,7 +21,6 @@ namespace HotelSystem_EF.Dal.Data
         public DbSet<Room> Rooms { get; set; }
         public DbSet<RoomAmenity> RoomAmenities { get; set; }
         public DbSet<Service> Services { get; set; }
-        public DbSet<User> Users { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

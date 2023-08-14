@@ -17,7 +17,7 @@ public class Program
         builder.Services.AddAutoMapper(typeof(Program).Assembly);
         builder.Services.AddControllers();
         builder.Services.AddEndpointsApiExplorer();
-        //builder.Services.AddSwaggerGen();
+        builder.Services.AddSwaggerGen();
 
 
         builder.Services.AddDbContext<HotelSystemContext>(
@@ -25,7 +25,6 @@ public class Program
             options => options.MigrationsAssembly("HotelSystem_EF.Api")));
 
         builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
-        builder.Services.AddScoped(typeof(IGenericTransitiveReposetory<>), typeof(GenericTransitiveRepository<>));
         builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
         builder.Services.AddScoped<IAmenityService, AmenityService>();
         builder.Services.AddScoped<IBookingServices, BookingServices>();
@@ -40,11 +39,11 @@ public class Program
 
         var app = builder.Build();
 
-        //if (app.Environment.IsDevelopment())
-        //{
-        //    app.UseSwagger();
-        //    app.UseSwaggerUI();
-        //}
+        if (app.Environment.IsDevelopment())
+        {
+            app.UseSwagger();
+            app.UseSwaggerUI();
+        }
 
         app.UseHttpsRedirection();
 

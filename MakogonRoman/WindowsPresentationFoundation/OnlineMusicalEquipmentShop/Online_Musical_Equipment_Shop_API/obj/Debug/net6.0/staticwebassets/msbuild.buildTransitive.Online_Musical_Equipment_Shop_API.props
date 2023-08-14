@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\Online_Musical_Equipment_Shop_API.props" />
-</Project>

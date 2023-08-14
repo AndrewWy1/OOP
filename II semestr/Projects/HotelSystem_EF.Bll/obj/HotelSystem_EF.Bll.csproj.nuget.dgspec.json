@@ -10,14 +10,14 @@
         "projectUniqueName": "D:\\Projects\\OOP\\II semestr\\Projects\\HotelSystem_EF.Bll\\HotelSystem_EF.Bll.csproj",
         "projectName": "HotelSystem_EF.Bll",
         "projectPath": "D:\\Projects\\OOP\\II semestr\\Projects\\HotelSystem_EF.Bll\\HotelSystem_EF.Bll.csproj",
-        "packagesPath": "C:\\Users\\Fujitsu Owner\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\dropp\\.nuget\\packages\\",
         "outputPath": "D:\\Projects\\OOP\\II semestr\\Projects\\HotelSystem_EF.Bll\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Programs\\VisualStudio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Fujitsu Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dropp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -73,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -83,14 +84,14 @@
         "projectUniqueName": "D:\\Projects\\OOP\\II semestr\\Projects\\HotelSystem_EF.Dal\\HotelSystem_EF.Dal.csproj",
         "projectName": "HotelSystem_EF.Dal",
         "projectPath": "D:\\Projects\\OOP\\II semestr\\Projects\\HotelSystem_EF.Dal\\HotelSystem_EF.Dal.csproj",
-        "packagesPath": "C:\\Users\\Fujitsu Owner\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\dropp\\.nuget\\packages\\",
         "outputPath": "D:\\Projects\\OOP\\II semestr\\Projects\\HotelSystem_EF.Dal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Programs\\VisualStudio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Fujitsu Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dropp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -99,6 +100,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -117,9 +119,25 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.32.0, )"
             }
           },
           "imports": [
@@ -138,7 +156,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -2,7 +2,7 @@
 
 namespace HotelSystem_EF.Dal.Repositories.IRepositories
 {
-    public interface IGenericRepository<TEntity> where TEntity : ModelBase
+    public interface IGenericRepository<TEntity> where TEntity : class
     {
         Task<IEnumerable<TEntity>> GetAllAsync();
 

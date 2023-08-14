@@ -8,8 +8,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace HotelSystem_EF.Api.Controllers
 {
-    [Route("api/user")]
     [ApiController]
+    [Route("api/[controller]")]
     public class UserController : Controller
     {
         private readonly IUserService _userService;
@@ -19,7 +19,7 @@ namespace HotelSystem_EF.Api.Controllers
             _userService = amenityService;
         }
 
-        [HttpGet, Route("Return_all_users")]
+        [HttpGet]
         public async Task<ActionResult<IEnumerable<UserDTO>>> GetlAllUsersAsync()
         {
             try
@@ -30,7 +30,7 @@ namespace HotelSystem_EF.Api.Controllers
             catch (Exception ex) { return StatusCode(500, ex.Message); }
         }
 
-        [HttpGet("{Id}"), Route("Return_user_by_id")]
+        [HttpGet("{Id}")]
         public async Task<ActionResult<UserDTO>> GetByIdAsync(int Id)
         {
             try
@@ -44,7 +44,7 @@ namespace HotelSystem_EF.Api.Controllers
             }
         }
 
-        [HttpPost, Route("Insert_user")]
+        [HttpPost]
         public async Task<ActionResult<UserDTO>> CreateAsync([FromBody] PostUserDTO user)
         {
             try
@@ -58,7 +58,7 @@ namespace HotelSystem_EF.Api.Controllers
             }
         }
 
-        [HttpPut("{id}"), Route("Update_user")]
+        [HttpPut("{id}")]
         public async Task<ActionResult<UserDTO>> UpdateAsync([FromBody] UserDTO user)
         {
             try
@@ -72,7 +72,7 @@ namespace HotelSystem_EF.Api.Controllers
             }
         }
 
-        [HttpDelete, Route("Remove_user/{id}")]
+        [HttpDelete]
         public async Task<ActionResult<UserDTO>> DeleteAsync(int Id)
         {
             try
